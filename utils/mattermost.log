@@ -1,0 +1,9 @@
+[2016/02/01 10:32:23 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/01 10:32:23 PKT] [EROR] Signed license not long enough
+[2016/02/01 10:32:23 PKT] [EROR] Invalid signature, err=crypto/rsa: verification error
+[2016/02/17 09:29:24 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:29:24 PKT] [EROR] Signed license not long enough
+[2016/02/17 09:29:24 PKT] [EROR] Invalid signature, err=crypto/rsa: verification error
+[2016/02/17 09:47:09 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:47:09 PKT] [EROR] Signed license not long enough
+[2016/02/17 09:47:09 PKT] [EROR] Invalid signature, err=crypto/rsa: verification error

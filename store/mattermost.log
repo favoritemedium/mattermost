@@ -1,0 +1,33 @@
+[2016/02/01 10:31:58 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/01 10:31:58 PKT] [INFO] Pinging sql master database
+[2016/02/01 10:31:58 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/01 10:31:58 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/01 10:32:16 PKT] [INFO] Pinging sql master database
+[2016/02/01 10:32:16 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/01 10:32:17 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/01 10:32:17 PKT] [INFO] Closing SqlStore
+[2016/02/01 10:32:17 PKT] [CRIT] Failed to open sql connection to err:sql: unknown driver "missing" (forgotten import?)
+[2016/02/01 10:32:18 PKT] [INFO] Pinging sql master database
+[2016/02/01 10:32:18 PKT] [CRIT] Failed to ping db err:Invalid DSN: Missing the slash separating the database name
+[2016/02/17 09:28:38 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:28:38 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:28:38 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:28:39 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:29:16 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:29:16 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:29:17 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:29:17 PKT] [INFO] Closing SqlStore
+[2016/02/17 09:29:17 PKT] [CRIT] Failed to open sql connection to err:sql: unknown driver "missing" (forgotten import?)
+[2016/02/17 09:29:18 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:29:18 PKT] [CRIT] Failed to ping db err:Invalid DSN: Missing the slash separating the database name
+[2016/02/17 09:46:13 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:46:13 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:46:13 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:46:14 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:47:01 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:47:01 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:47:01 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:47:01 PKT] [INFO] Closing SqlStore
+[2016/02/17 09:47:01 PKT] [CRIT] Failed to open sql connection to err:sql: unknown driver "missing" (forgotten import?)
+[2016/02/17 09:47:02 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:47:02 PKT] [CRIT] Failed to ping db err:Invalid DSN: Missing the slash separating the database name

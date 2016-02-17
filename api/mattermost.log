@@ -1,0 +1,815 @@
+[2016/02/01 10:29:49 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/01 10:29:49 PKT] [INFO] Server is initializing...
+[2016/02/01 10:29:49 PKT] [INFO] Pinging sql master database
+[2016/02/01 10:29:49 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/01 10:29:50 PKT] [INFO] The database schema has been set to version 1.4.0
+[2016/02/01 10:29:50 PKT] [INFO] Starting Server...
+[2016/02/01 10:29:50 PKT] [INFO] Server is listening on :8065
+[2016/02/01 10:29:50 PKT] [INFO] RateLimiter is enabled
+[2016/02/01 10:29:51 PKT] [EROR] /api/v1/admin/logs:getLogs code=403 rid=d8ma3nsug7nt38bjw8yptybf9e uid=ypycksrnu7yifcq7gdot1yq5ao ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=ypycksrnu7yifcq7gdot1yq5ao]
+[2016/02/01 10:29:52 PKT] [EROR] /api/v1/admin/config:getConfig code=403 rid=brfpyctrubgxjmdnq75r93ii4c uid=69yd1qkdrbntpp67suh3due9do ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=69yd1qkdrbntpp67suh3due9do]
+[2016/02/01 10:29:52 PKT] [EROR] /api/v1/admin/save_config:getConfig code=403 rid=zw8sbzp6sfrz9xfje1p93ppcwe uid=pqdye6qcbfywukmboue3wo4fzc ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=pqdye6qcbfywukmboue3wo4fzc]
+[2016/02/01 10:29:53 PKT] [EROR] /api/v1/admin/test_email:testEmail code=403 rid=hnf67wami7fbiqazqtpca7swth uid=o9hfki6etiy99ci8q1rmfz9ymc ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=o9hfki6etiy99ci8q1rmfz9ymc]
+[2016/02/01 10:29:54 PKT] [EROR] /api/v1/admin/analytics/6iw4k5p7ypfr8kms6brtzjjuuc/standard:getAnalytics code=403 rid=xkoqym4jo3dwdf9gizw6y5fikh uid=e4izwnjtfjd8zjw3kzyg3jgd8w ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=e4izwnjtfjd8zjw3kzyg3jgd8w]
+[2016/02/01 10:29:55 PKT] [EROR] /api/v1/admin/analytics/xox66kq7efrxznfyet6ugh75yo/post_counts_day:getAnalytics code=403 rid=bo9si7izy7re3c4pa4sbdi6gce uid=mbhd8bxb9ff1xphfkutp3bduca ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=mbhd8bxb9ff1xphfkutp3bduca]
+[2016/02/01 10:29:56 PKT] [EROR] /api/v1/admin/analytics/9c7y9ysxhi84mkfepd4b88orne/user_counts_with_posts_day:getAnalytics code=403 rid=p8rtrcaud3nrff4fheat7qsttc uid=rf6end15yfd9mr33yohsg6m63e ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=rf6end15yfd9mr33yohsg6m63e]
+[2016/02/01 10:29:57 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Save code=500 rid=4mkygp46wib69f4ykcnaecaypw uid=9hnb8c1nityu7ekb7w8dqwuf7w ip=127.0.0.1 Must call update for exisiting channel [details: id=ofud1pojfjyozdqyxbyjfg495w]
+[2016/02/01 10:29:57 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Update code=500 rid=ycej3b8mx3bttezmsh7d5emx4o uid=9hnb8c1nityu7ekb7w8dqwuf7w ip=127.0.0.1 A channel with that URL already exists [details: id=5w1iap7mgtf85jp7jjra5jkefh, Error 1062: Duplicate entry 'amtqk56kuijf73xy5qf3eqybp4oa-tzqepg3mw78cpxqj1tc6h51abe' for key 'Name']
+[2016/02/01 10:29:57 PKT] [EROR] /api/v1/channels/create:createChannel code=400 rid=7hgg9d8arty1tc8de59ki53itw uid=9hnb8c1nityu7ekb7w8dqwuf7w ip=127.0.0.1 Invalid channel parameter [details: ]
+[2016/02/01 10:29:57 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Update code=500 rid=sunnqip43tgtdck6s5ecguma1r uid=9hnb8c1nityu7ekb7w8dqwuf7w ip=127.0.0.1 A channel with that URL was previously created [details: id=nrzqpjzj8tymppnejir5onfucc, Error 1062: Duplicate entry 'amtqk56kuijf73xy5qf3eqybp4oa-tzqepg3mw78cpxqj1tc6h51abe' for key 'Name']
+[2016/02/01 10:29:57 PKT] [EROR] /api/v1/channels/create:createChannel code=403 rid=sawmm4nhp78ftq9s53jexrtu8c uid=9hnb8c1nityu7ekb7w8dqwuf7w ip=127.0.0.1 You do not have the appropriate permissions [details: userId=9hnb8c1nityu7ekb7w8dqwuf7w, teamId=sb394rh6bido8f5n7m6zkefcdc]
+[2016/02/01 10:29:57 PKT] [EROR] /api/v1/channels/create:createDirectChannel code=500 rid=oj34hjkn9t8ppyzn1ps3a5o1aw uid=9hnb8c1nityu7ekb7w8dqwuf7w ip=127.0.0.1 Invalid character '__' in channel name for non-direct channel [details: ]
+[2016/02/01 10:29:57 PKT] [EROR] /api/v1/channels/create:createDirectChannel code=500 rid=6tporzhgk7f3pe3nxtqago5ucy uid=9hnb8c1nityu7ekb7w8dqwuf7w ip=127.0.0.1 Must use createDirectChannel api service for direct message channel creation [details: ]
+[2016/02/01 10:29:58 PKT] [EROR] /api/v1/channels/create_direct:SqlChannelStore.Update code=500 rid=1fpybcjskb8ptfw3eu9bqjb4pa uid=bn1xefea5inrfqsu16xtfkpnhc ip=127.0.0.1 A channel with that URL already exists [details: id=9761brig5fd5xenst8ibi6gbyr, Error 1062: Duplicate entry 'bn1xefea5inrfqsu16xtfkpnhc__s7xaomnyajri5kjuzdmce5qcgw-rc1qedsne' for key 'Name']
+[2016/02/01 10:29:58 PKT] [EROR] /api/v1/channels/create_direct:createDirectChannel code=400 rid=ypdzunbeuffzbku3ffs8jjmkuh uid=bn1xefea5inrfqsu16xtfkpnhc ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:29:58 PKT] [EROR] /api/v1/channels/create_direct:CreateDirectChannel code=500 rid=9jki9tj7xfgs7ysfd6gjz6fm6a uid=bn1xefea5inrfqsu16xtfkpnhc ip=127.0.0.1 Invalid other user id  [details: 12345678901234567890123456]
+[2016/02/01 10:29:59 PKT] [EROR] /api/v1/channels/update:updateChannel code=403 rid=oeomciwuqfy33qsxzw8zgq4dxe uid=j5gh11upptyqbr4afqfbd73g4a ip=127.0.0.1 Tried to perform an invalid update of the default channel town-square [details: ]
+[2016/02/01 10:29:59 PKT] [EROR] /api/v1/channels/update:SqlChannelStore.GetMember code=500 rid=hx9n9sy5b781dm7e3zssyn4p8w uid=s9geycphq7bo3g93hm64nsc41a ip=127.0.0.1 We couldn't get the channel member [details: channel_id=66hmnr6tnjbm7dod5epepsd5mruser_id=s9geycphq7bo3g93hm64nsc41a,sql: no rows in result set]
+[2016/02/01 10:30:00 PKT] [EROR] /api/v1/channels/update_header:updateChannelHeader code=400 rid=iwptks1h43bpmeaq7yq6ckfi3a uid=3upfyctqnj8iiqn58y98pheobe ip=127.0.0.1 Invalid channel_id parameter [details: ]
+[2016/02/01 10:30:00 PKT] [EROR] /api/v1/channels/update_header:SqlChannelStore.Get code=500 rid=uibx3jkikbbkxb4yj6qxixkr1w uid=3upfyctqnj8iiqn58y98pheobe ip=127.0.0.1 We couldn't find the existing channel [details: id=12345678901234567890123456]
+[2016/02/01 10:30:00 PKT] [EROR] /api/v1/channels/update_header:updateChannelHeader code=400 rid=y1c4hkmzytbwuk4363uga8e8cw uid=3upfyctqnj8iiqn58y98pheobe ip=127.0.0.1 Invalid channel_header parameter [details: ]
+[2016/02/01 10:30:00 PKT] [EROR] /api/v1/channels/update_header:SqlChannelStore.GetMember code=500 rid=61wftoyffinhtg58rshak1ae1r uid=861y44zar7fwbgb53j8bmquw8a ip=127.0.0.1 We couldn't get the channel member [details: channel_id=bdufejody7dqfk788b6k86knrauser_id=861y44zar7fwbgb53j8bmquw8a,sql: no rows in result set]
+[2016/02/01 10:30:01 PKT] [EROR] /api/v1/channels/update_purpose:updateChannelPurpose code=400 rid=hz7w4931e7d97j3m4pz5ehsu8y uid=8w93y8syd3yabryuo7sfngnkfo ip=127.0.0.1 Invalid channel_id parameter [details: ]
+[2016/02/01 10:30:01 PKT] [EROR] /api/v1/channels/update_purpose:SqlChannelStore.Get code=500 rid=csbpa5de63f67egux39h8x387e uid=8w93y8syd3yabryuo7sfngnkfo ip=127.0.0.1 We couldn't find the existing channel [details: id=12345678901234567890123456]
+[2016/02/01 10:30:01 PKT] [EROR] /api/v1/channels/update_purpose:Channel.IsValid code=500 rid=gedrofix4id17fys3dmgrxc4fa uid=8w93y8syd3yabryuo7sfngnkfo ip=127.0.0.1 Invalid purpose [details: id=ykqmgx8c6ty7786gqq3b6fouic]
+[2016/02/01 10:30:01 PKT] [EROR] /api/v1/channels/update_purpose:SqlChannelStore.GetMember code=500 rid=gntxxikny7f6iedpztjfu48mwh uid=uzhmqdhmmb8bmjxgicfo7qghna ip=127.0.0.1 We couldn't get the channel member [details: channel_id=ykqmgx8c6ty7786gqq3b6fouicuser_id=uzhmqdhmmb8bmjxgicfo7qghna,sql: no rows in result set]
+[2016/02/01 10:30:02 PKT] [EROR] /api/v1/channels/junk/:SqlChannelStore.Get code=500 rid=ic4n96duo7d5bxfxro63qz18xe uid=9hpt3njzwi8i5xgmzeegkz4ghc ip=127.0.0.1 We couldn't find the existing channel [details: id=junk]
+[2016/02/01 10:30:05 PKT] [EROR] /api/v1/channels/cg54q19ysifxbnsk87o8pa3iwo/join:join code=403 rid=twrfexr3kjrqbx785awbgr9jmo uid=egys3bb6rf8mtpn9tgssjnhbao ip=127.0.0.1 You do not have the appropriate permissions [details: ]
+[2016/02/01 10:30:06 PKT] [EROR] /api/v1/channels/xaj8is8x17d78rjxfsakmy91yw/join:join code=403 rid=h3idro3eqjdz7fo5cu4kqs3bey uid=y5r8eobysj8qbdq1t9b4wdddhr ip=127.0.0.1 You do not have the appropriate permissions [details: ]
+[2016/02/01 10:30:07 PKT] [EROR] /api/v1/channels/gymhorokgfdoie7m4e9jixif9o/leave:leave code=403 rid=nz89nnx5ktnojdj5fktbdbusjc uid=edt18f7x3fys3pmuzxnwqoa59o ip=127.0.0.1 Cannot leave a direct message channel [details: ]
+[2016/02/01 10:30:07 PKT] [EROR] /api/v1/channels/13x6bpktotn7icet1fnxgmbsmy/leave:leave code=403 rid=mottjzffh3rffbu7g6bspihy8a uid=edt18f7x3fys3pmuzxnwqoa59o ip=127.0.0.1 Cannot leave the default channel town-square [details: ]
+[2016/02/01 10:30:08 PKT] [EROR] /api/v1/channels/wk4ky34gdtdu3mt3yjx37ia75e/create:createPost code=403 rid=sazi9f3mf3yx5ks7okbr6wf5tr uid=otj8eqsn9byfbnq1hmqng1j78y ip=127.0.0.1 You do not have the appropriate permissions [details: userId=otj8eqsn9byfbnq1hmqng1j78y]
+[2016/02/01 10:30:08 PKT] [EROR] /api/v1/channels/wk4ky34gdtdu3mt3yjx37ia75e/join:AddUserToChannel code=500 rid=4k7pgqozf7bidf3fsryneyjw9o uid=rszkguiwy3f8fpg7oo6w6ncu3o ip=127.0.0.1 The channel has been archived or deleted [details: ]
+[2016/02/01 10:30:08 PKT] [EROR] /api/v1/channels/n5kt7914bbrbbpwe8q351w66yh/delete:deleteChannel code=403 rid=mt94wtrpj3rzzgcnc1w3kcgnna uid=rszkguiwy3f8fpg7oo6w6ncu3o ip=127.0.0.1 You do not have the appropriate permissions [details: ]
+[2016/02/01 10:30:08 PKT] [EROR] /api/v1/channels/jnhekzp7mbrm8pb7gqueqhjifw/delete:deleteChannel code=403 rid=ec9fsim8y78s3phu5adxcutpqh uid=rszkguiwy3f8fpg7oo6w6ncu3o ip=127.0.0.1 You do not have the appropriate permissions [details: ]
+[2016/02/01 10:30:11 PKT] [EROR] /api/v1/channels/g7wwd59rhtgkxyqu4g1w59xirc/add:addMember code=400 rid=yh3j9wdwi7n3dee5meh4iskq9h uid=taj9pfoizifmzpiadcejdssk8h ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:30:11 PKT] [EROR] /api/v1/channels/g7wwd59rhtgkxyqu4g1w59xirc/add:addMember code=500 rid=pzggj3gxeirr7mby79u6m7tq7o uid=taj9pfoizifmzpiadcejdssk8h ip=127.0.0.1 Failed to find user to be added [details: ]
+[2016/02/01 10:30:11 PKT] [EROR] Failed to add member user_id=7f1yt9uuzjbhides8w7jbx16jy channel_id=g7wwd59rhtgkxyqu4g1w59xirc err=SqlChannelStore.SaveMember: , channel_id=g7wwd59rhtgkxyqu4g1w59xirc, user_id=7f1yt9uuzjbhides8w7jbx16jy, Error 1062: Duplicate entry 'g7wwd59rhtgkxyqu4g1w59xirc-7f1yt9uuzjbhides8w7jbx16jy' for key 'PRIMARY'
+[2016/02/01 10:30:11 PKT] [EROR] /api/v1/channels/g7wwd59rhtgkxyqu4g1w59xirc/add:AddUserToChannel code=500 rid=mgbcgxecspnn8xtqwi7odd4gwr uid=taj9pfoizifmzpiadcejdssk8h ip=127.0.0.1 Failed to add user to channel [details: ]
+[2016/02/01 10:30:11 PKT] [EROR] /api/v1/channels/sgdsgsdg/add:addMember code=403 rid=k49r3ktzyfd5mkfeabc9fsik7a uid=taj9pfoizifmzpiadcejdssk8h ip=127.0.0.1 You do not have the appropriate permissions [details: userId=taj9pfoizifmzpiadcejdssk8h]
+[2016/02/01 10:30:11 PKT] [EROR] /api/v1/channels/e8dxt69j1iggbrgsnxx1buhahy/add:addMember code=403 rid=33upqpqo7fb9je9r5dfdxrwp4o uid=7f1yt9uuzjbhides8w7jbx16jy ip=127.0.0.1 You do not have the appropriate permissions [details: userId=7f1yt9uuzjbhides8w7jbx16jy]
+[2016/02/01 10:30:11 PKT] [EROR] /api/v1/channels/e8dxt69j1iggbrgsnxx1buhahy/add:addMember code=403 rid=b174oxsor3g9pysubysx7st55c uid=taj9pfoizifmzpiadcejdssk8h ip=127.0.0.1 You do not have the appropriate permissions [details: userId=taj9pfoizifmzpiadcejdssk8h]
+[2016/02/01 10:30:13 PKT] [EROR] /api/v1/channels/b38kcwnuup8mbdno78bmcs16gr/remove:removeMember code=400 rid=uknheggnrpg7pf85m3znnmj6jo uid=zbr8e4e9mfb378ipwjyb7enqmc ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:30:13 PKT] [EROR] /api/v1/channels/sgdsgsdg/remove:SqlChannelStore.Get code=500 rid=4iy1pzdic7gr9ek9epie4ee83o uid=zbr8e4e9mfb378ipwjyb7enqmc ip=127.0.0.1 We couldn't find the existing channel [details: id=sgdsgsdg]
+[2016/02/01 10:30:13 PKT] [EROR] /api/v1/channels/znyg9bg8aibnmdcuuwsar77tce/remove:SqlChannelStore.GetMember code=500 rid=swfj974e77y7xrmr8ryy3j39yr uid=f61uzi9sgiy8fbjd5mn6qm3n4o ip=127.0.0.1 We couldn't get the channel member [details: channel_id=znyg9bg8aibnmdcuuwsar77tceuser_id=f61uzi9sgiy8fbjd5mn6qm3n4o,sql: no rows in result set]
+[2016/02/01 10:30:13 PKT] [EROR] /api/v1/channels/znyg9bg8aibnmdcuuwsar77tce/remove:updateChannel code=500 rid=c77s9hs7ztndtni8srmuef4y3y uid=zbr8e4e9mfb378ipwjyb7enqmc ip=127.0.0.1 Unable to remove user. [details: ]
+[2016/02/01 10:30:14 PKT] [EROR] /api/v1/channels/update_notify_props:updateMarkUnreadLevel code=400 rid=fbnpewku3fympjs3abodinqkzh uid=95n35zuzpt8yjrz4e16k1czefc ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:30:14 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=k6p4zj1j6pfipgk8zrsst968nh uid=95n35zuzpt8yjrz4e16k1czefc ip=127.0.0.1 You do not have the appropriate permissions [details: userId=12345678901234567890123456]
+[2016/02/01 10:30:14 PKT] [EROR] /api/v1/channels/update_notify_props:updateMarkUnreadLevel code=400 rid=3rk1gs6om3ns9r7a88zrjgiruo uid=95n35zuzpt8yjrz4e16k1czefc ip=127.0.0.1 Invalid channel_id parameter [details: ]
+[2016/02/01 10:30:14 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=j3ok8nuue38m8g4eabh6db44yo uid=95n35zuzpt8yjrz4e16k1czefc ip=127.0.0.1 You do not have the appropriate permissions [details: userId=95n35zuzpt8yjrz4e16k1czefc]
+[2016/02/01 10:30:14 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=mq5kjj9xgbdwugqa4y43h8ctka uid=95n35zuzpt8yjrz4e16k1czefc ip=127.0.0.1 You do not have the appropriate permissions [details: userId=95n35zuzpt8yjrz4e16k1czefc]
+[2016/02/01 10:30:14 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=nguiiap583ftt8ys41qy8jxpuo uid=95n35zuzpt8yjrz4e16k1czefc ip=127.0.0.1 You do not have the appropriate permissions [details: userId=95n35zuzpt8yjrz4e16k1czefc]
+[2016/02/01 10:30:14 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=dywsmjxwdj8hpp67bdidg7szrr uid=6yjmgpa1cffpxykyrr1hmch31o ip=127.0.0.1 You do not have the appropriate permissions [details: userId=6yjmgpa1cffpxykyrr1hmch31o]
+[2016/02/01 10:30:17 PKT] [EROR] /api/v1/command:checkCommand code=500 rid=6jk43xq5aiybmn3gcy9ycdx1kr uid=uqumx1s1mtb67cfsactwhmn4he ip=127.0.0.1 Command must start with / [details: ]
+[2016/02/01 10:30:20 PKT] [EROR] /api/v1/command:loadTestUrlCommand code=500 rid=5daxq6hr87nqjrja6b9krtjbya uid=3s9q1tybqffcxbcyfhoywm8duw ip=127.0.0.1 Command must contain a url [details: ]
+[2016/02/01 10:30:34 PKT] [EROR] readFile: , open ./data/teams/mw1ttaxddiynjgoy3m3fm97msc/channels/q3cyxg3fb7b95pqh5h3sycpw6y/users/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png: no such file or directory
+[2016/02/01 10:30:34 PKT] [EROR] /api/v1/files/get/q3cyxg3fb7b95pqh5h3sycpw6y/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png:getFile code=403 rid=s8aysb47xfdc3fiirfo6tuao8c uid=rpyo3oz5ybbm7bubpqhhqudhna ip=127.0.0.1 You do not have the appropriate permissions [details: userId=rpyo3oz5ybbm7bubpqhhqudhna]
+[2016/02/01 10:30:34 PKT] [EROR] readFile: , open ./data/teams/mw1ttaxddiynjgoy3m3fm97msc/channels/q3cyxg3fb7b95pqh5h3sycpw6y/users/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png: no such file or directory
+[2016/02/01 10:30:34 PKT] [EROR] /api/v1/files/get/q3cyxg3fb7b95pqh5h3sycpw6y/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png:getFile code=403 rid=yremit7io3r4ty7jhrafyxmzcc uid=rpyo3oz5ybbm7bubpqhhqudhna ip=127.0.0.1 You do not have the appropriate permissions [details: userId=rpyo3oz5ybbm7bubpqhhqudhna]
+[2016/02/01 10:30:34 PKT] [EROR] readFile: , open ./data/teams/12345678901234567890123456/channels/q3cyxg3fb7b95pqh5h3sycpw6y/users/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png: no such file or directory
+[2016/02/01 10:30:34 PKT] [EROR] /api/v1/files/get/q3cyxg3fb7b95pqh5h3sycpw6y/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png:getFile code=404 rid=at6n1cw51pbci8eghkq7gk5dee uid=rpyo3oz5ybbm7bubpqhhqudhna ip=127.0.0.1 Could not find file. [details: path=teams/12345678901234567890123456/channels/q3cyxg3fb7b95pqh5h3sycpw6y/users/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png]
+[2016/02/01 10:30:34 PKT] [EROR] /api/v1/files/get/q3cyxg3fb7b95pqh5h3sycpw6y/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png:getFile code=403 rid=gr67e7pqdpgx7gehxrhne68e1o uid=rpyo3oz5ybbm7bubpqhhqudhna ip=127.0.0.1 You do not have the appropriate permissions [details: userId=rpyo3oz5ybbm7bubpqhhqudhna]
+[2016/02/01 10:30:34 PKT] [EROR] /api/v1/files/get/q3cyxg3fb7b95pqh5h3sycpw6y/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png:getFile code=500 rid=er4x3k6yipfofq6otedy418c1w uid=rpyo3oz5ybbm7bubpqhhqudhna ip=127.0.0.1 The public link does not appear to be valid [details: ]
+[2016/02/01 10:30:34 PKT] [EROR] /api/v1/files/get/q3cyxg3fb7b95pqh5h3sycpw6y/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png:getFile code=403 rid=hjkq6yw3ipnwuxz7gmipzc35yy uid=rpyo3oz5ybbm7bubpqhhqudhna ip=127.0.0.1 You do not have the appropriate permissions [details: userId=rpyo3oz5ybbm7bubpqhhqudhna]
+[2016/02/01 10:30:34 PKT] [EROR] /api/v1/files/get/q3cyxg3fb7b95pqh5h3sycpw6y/siuiexy7xpgr5gowugpj9su7ry/gnnk5d1tmtbhujb5k7ku3ffm4o/test.png:getFile code=500 rid=46966mx9ob81zp8ma7wqm1fney uid=rpyo3oz5ybbm7bubpqhhqudhna ip=127.0.0.1 The public link does not appear to be valid [details: ]
+[2016/02/01 10:30:40 PKT] [EROR] /api/v1/files/get_public_link:getPublicLink code=400 rid=snjohbutjtbn3x3xbndwtw5gph uid=j1y4rym9zfnd7mz3jfezu7cbpa ip=127.0.0.1 Invalid filename parameter [details: ]
+[2016/02/01 10:30:41 PKT] [EROR] /api/v1/files/get_public_link:getPublicLink code=403 rid=i5y9dzdq3tgkjc797bzycwf8pw uid=9sc4eumjuinqtgfas9jdeifdwr ip=127.0.0.1 You do not have the appropriate permissions [details: userId=9sc4eumjuinqtgfas9jdeifdwr]
+[2016/02/01 10:30:41 PKT] [EROR] /api/v1/oauth/register:registerOAuthApp code=501 rid=4i5wrtsih3bdjcq4tcfddu5zih uid=9sc4eumjuinqtgfas9jdeifdwr ip=127.0.0.1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/01 10:30:42 PKT] [EROR] /api/v1/oauth/allow:allowOAuth code=501 rid=jucmunuhntn9tkfdwg4mkdsjfw uid=aba3g18m7irk3jwepmqnaxt1nw ip=127.0.0.1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/01 10:30:43 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:43 PKT] [EROR] Bad filename discarded, filename=/12345678901234567890123456/12345678901234567890123456/12345678901234567890123456/test.png
+[2016/02/01 10:30:43 PKT] [EROR] /api/v1/channels/764of9qkufr1mgnestcrebse6w/create:createPost code=400 rid=gmkd9e9p6prsfgqhb5xq3pfbcw uid=4xgdrahmctbn7qn7wokt8js3ey ip=127.0.0.1 Invalid RootId parameter [details: ]
+[2016/02/01 10:30:43 PKT] [EROR] /api/v1/channels/764of9qkufr1mgnestcrebse6w/create:createPost code=400 rid=3fobzkgtsjf4ujymrif9pzxnqe uid=4xgdrahmctbn7qn7wokt8js3ey ip=127.0.0.1 Invalid ParentId parameter [details: ]
+[2016/02/01 10:30:43 PKT] [EROR] /api/v1/channels/764of9qkufr1mgnestcrebse6w/create:createPost code=400 rid=86ypbu6hmibqbjemdfn6w8cr4c uid=4xgdrahmctbn7qn7wokt8js3ey ip=127.0.0.1 Invalid ChannelId for RootId parameter [details: ]
+[2016/02/01 10:30:43 PKT] [EROR] /api/v1/channels/junk/create:createPost code=403 rid=4ocbuq3apid85e9mxneyconxkh uid=4xgdrahmctbn7qn7wokt8js3ey ip=127.0.0.1 You do not have the appropriate permissions [details: userId=4xgdrahmctbn7qn7wokt8js3ey]
+[2016/02/01 10:30:43 PKT] [EROR] /api/v1/channels/764of9qkufr1mgnestcrebse6w/create:createPost code=403 rid=373ay19g7pnf3eossqc4pcrzoy uid=5stk6q75ptyn8x44ys9b6eub1r ip=127.0.0.1 You do not have the appropriate permissions [details: userId=5stk6q75ptyn8x44ys9b6eub1r]
+[2016/02/01 10:30:43 PKT] [EROR] /api/v1/channels/764of9qkufr1mgnestcrebse6w/create:createPost code=403 rid=1rkfgj6kppgnxksjoqsy1wm5yw uid=dk9jnnzag3d5xbhumw6wjgahtr ip=127.0.0.1 You do not have the appropriate permissions [details: userId=dk9jnnzag3d5xbhumw6wjgahtr]
+[2016/02/01 10:30:43 PKT] [EROR] /api/v1/channels/dmkfu5tr6bnhbb879aub3f1e6o/create:createPost code=400 rid=majtf1nxx3bo7b6i5cw1szgw1r uid=dk9jnnzag3d5xbhumw6wjgahtr ip=127.0.0.1 Invalid post parameter [details: ]
+[2016/02/01 10:30:53 PKT] [EROR] /api/v1/channels/tmqyiptdeb8i8cc3n3eyzxsuee/post/6y3nn7zgg78zd8gdksntnxcwko/delete:deletePost code=403 rid=iwjkdsuznifqpmaf61y9q6f8ea uid=mg3t5mj5bbnt3d6nmrq1yehr4w ip=127.0.0.1 You do not have the appropriate permissions [details: userId=mg3t5mj5bbnt3d6nmrq1yehr4w]
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:55 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:56 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:57 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:57 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:57 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:57 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:30:57 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/01 10:31:00 PKT] [EROR] /api/v1/preferences/save:savePreferences code=401 rid=phy4ht986fg7pbimyrjxjcuw6h uid=ag4h3psffbbc5m8wag7irqyfqw ip=127.0.0.1 Unable to set preferences for other user [details: session.user_id=ag4h3psffbbc5m8wag7irqyfqw, preference.user_id=wu84t73wxtyu8qxqs6q8rd685e]
+[2016/02/01 10:31:02 PKT] [INFO] sending invitation to corey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%22corey%2Btest%40test.com%22%2C%22id%22%3A%22duuaayq4j3gjbks1b5zun8rijw%22%2C%22name%22%3A%22z-z-3q38t8znptd7ukwhk98tyqdgcoa%22%2C%22time%22%3A%221454304662740%22%7D&h=%242a%2410%244dFqqNupGQITVDTXSXFr6ela9IogS9.Jcz3DcLZYyxrC8lxD21kH2
+[2016/02/01 10:31:03 PKT] [EROR] /api/v1/teams/create_from_signup:User.IsValid code=500 rid=ofe9porqgir198cqe4t6wydnwe uid=eh6otjj7tfrfictgrhz4jj1j6e ip=127.0.0.1 Invalid email [details: user_id=d9aw1k1acffp9c3zbw6cqh5ocr]
+[2016/02/01 10:31:03 PKT] [EROR] /api/v1/teams/create:SqlTeamStore.Save code=500 rid=mtegsd9i73nyud5ye6i3wcpryh uid=rrqib1989t8z3czdasaasgkk9a ip=127.0.0.1 Must call update for exisiting team [details: id=ea7ck3ze8fykzj5ardgpjs9q8a]
+[2016/02/01 10:31:03 PKT] [EROR] /api/v1/teams/create:SqlTeamStore.Save code=500 rid=41bkd6sazbr73fam89uf5qryca uid=rrqib1989t8z3czdasaasgkk9a ip=127.0.0.1 A team with that domain already exists [details: id=e9qozw734jbcb878immn3ougga, Error 1062: Duplicate entry 'z-z-df6333e3x7f4ipk99rdwxrtcsea' for key 'Name']
+[2016/02/01 10:31:03 PKT] [EROR] /api/v1/teams/create:createTeam code=400 rid=4g8thz3cqbbx9e8kehqrm85pke uid=rrqib1989t8z3czdasaasgkk9a ip=127.0.0.1 Invalid team parameter [details: ]
+[2016/02/01 10:31:04 PKT] [EROR] /api/v1/teams/all:getLogs code=403 rid=ai6sr61rapbebfo8u9ifex5eww uid=4tn8xwke8inj7bxid3uyfjs5hh ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=4tn8xwke8inj7bxid3uyfjs5hh]
+[2016/02/01 10:31:05 PKT] [WARN] Attempting to permanently delete team z-z-qskhadqat3ydxnuj14rehpae3oa id=e18tjqdw9fbeprzreyxa1hrwka
+[2016/02/01 10:31:05 PKT] [WARN] Attempting to permanently delete account dd79gr5b17nzfgfzufe45oumiocorey+test@test.com id=n6jwobcro3f3jnhfw1ggz7i36w
+[2016/02/01 10:31:05 PKT] [WARN] Permanently deleted account dd79gr5b17nzfgfzufe45oumiocorey+test@test.com id=n6jwobcro3f3jnhfw1ggz7i36w
+[2016/02/01 10:31:05 PKT] [WARN] Permanently deleted team z-z-qskhadqat3ydxnuj14rehpae3oa id=e18tjqdw9fbeprzreyxa1hrwka
+[2016/02/01 10:31:07 PKT] [INFO] sending invitation to m96m15o58jgm8j5u6tagjji8racorey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%22m96m15o58jgm8j5u6tagjji8racorey%2Btest%40test.com%22%2C%22id%22%3A%22pju7sup9zj8hjrdohg8x4eb7xo%22%2C%22name%22%3A%22z-z-gyy16kk5x3b7xykfec6h681coaa%22%2C%22time%22%3A%221454304666908%22%7D&h=%242a%2410%24nhqfNrGsG.%2FvUDMk7NiCu.9XLdZ%2FfIyM.uFplvBJBd1PAFaz7l8UG
+[2016/02/01 10:31:07 PKT] [INFO] sending invitation to m96m15o58jgm8j5u6tagjji8racorey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%22m96m15o58jgm8j5u6tagjji8racorey%2Btest%40test.com%22%2C%22id%22%3A%22pju7sup9zj8hjrdohg8x4eb7xo%22%2C%22name%22%3A%22z-z-gyy16kk5x3b7xykfec6h681coaa%22%2C%22time%22%3A%221454304667010%22%7D&h=%242a%2410%24zKiKT2H%2FGYe.0.NQYawjYuNhg5H87uG4ODkeLgtHDfV4Tc6DroynK
+[2016/02/01 10:31:07 PKT] [EROR] /api/v1/teams/invite_members:Team.InviteMembers code=400 rid=cuegbxrksjdt3xn67apaqwa8ur uid=35ypx48o13bw5n7zq6ady9f9xa ip=127.0.0.1 No one to invite. [details: ]
+[2016/02/01 10:31:07 PKT] [EROR] /api/v1/teams/update:updateTeam code=403 rid=761emnzhupbjxq5kb3xi73emse uid=exxiw3b5tign8dgd3mm7bn4wpy ip=127.0.0.1 You do not have the appropriate permissions [details: userId=exxiw3b5tign8dgd3mm7bn4wpy]
+[2016/02/01 10:31:08 PKT] [EROR] /api/v1/teams/update:Team.IsValid code=500 rid=oq4ia5sajbfuuqfshq5ix9wagr uid=pd13tmfum3dzz8abhbarmnn6uy ip=127.0.0.1 Invalid name [details: id=bsx88k7rgf8ri8m8p16i5s3qny]
+[2016/02/01 10:31:09 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=8cjjq5f3ejydfn4k3y7t5sxwqw
+[2016/02/01 10:31:09 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=g58a9fdf13ypmxhwa9gcmu86ae uid=knbjxtm6s7dn3g3zz9xodc9ngr ip=127.0.0.1 Must call update for exisiting user [details: user_id=8cjjq5f3ejydfn4k3y7t5sxwqw]
+[2016/02/01 10:31:09 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=kfw9f1ojt7ygmq3j7gqkr8q6oh, Error 1062: Duplicate entry '9iykn9zqepn67nxxj5d1a1sgnacorey+test@test.com-4nqhzqxnair48ypdh4' for key 'Email'
+[2016/02/01 10:31:09 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=chn37d41f7rtmennjbs1mfakbh uid=knbjxtm6s7dn3g3zz9xodc9ngr ip=127.0.0.1 An account with that email already exists. [details: user_id=kfw9f1ojt7ygmq3j7gqkr8q6oh, Error 1062: Duplicate entry '9iykn9zqepn67nxxj5d1a1sgnacorey+test@test.com-4nqhzqxnair48ypdh4' for key 'Email']
+[2016/02/01 10:31:09 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=1xrsmk81opfcfxdn9w13ed7aww, Error 1062: Duplicate entry 'exephzr8c3yqxkxpwi9b1zzjdr-4nqhzqxnair48ypdh4sfpfsfma' for key 'Username'
+[2016/02/01 10:31:09 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=cxg1fein7fystfcuinbcbuaqdw uid=knbjxtm6s7dn3g3zz9xodc9ngr ip=127.0.0.1 An account with that username already exists. [details: user_id=1xrsmk81opfcfxdn9w13ed7aww, Error 1062: Duplicate entry 'exephzr8c3yqxkxpwi9b1zzjdr-4nqhzqxnair48ypdh4sfpfsfma' for key 'Username']
+[2016/02/01 10:31:09 PKT] [EROR] Couldn't save the user err=User.IsValid: , user_id=gwiirzypfin53mime65cpgteah
+[2016/02/01 10:31:09 PKT] [EROR] /api/v1/users/create:User.IsValid code=500 rid=9o5d37shw3bszb3qje5khws8jh uid=knbjxtm6s7dn3g3zz9xodc9ngr ip=127.0.0.1 Invalid email [details: user_id=gwiirzypfin53mime65cpgteah]
+[2016/02/01 10:31:09 PKT] [EROR] /api/v1/users/create:createUser code=400 rid=pqpqtdsnz7bpprsbzwdgm8n7fe uid=knbjxtm6s7dn3g3zz9xodc9ngr ip=127.0.0.1 Invalid user parameter [details: ]
+[2016/02/01 10:31:10 PKT] [EROR] /api/v1/users/create:createUser code=500 rid=1ktwosin4bfmtgid1n8mssno9e uid=knbjxtm6s7dn3g3zz9xodc9ngr ip=127.0.0.1 The signup link does not appear to be valid [details: ]
+[2016/02/01 10:31:11 PKT] [EROR] /api/v1/users/login:checkUserPassword code=403 rid=tgr9ms66miysdbknzmejcksrjy uid=cwm5shde97go8ek7mso89dakdc ip=127.0.0.1 Login failed because of invalid password [details: user_id=cwm5shde97go8ek7mso89dakdc]
+[2016/02/01 10:31:11 PKT] [EROR] /api/v1/users/login:login code=403 rid=euyxdin6b78ntghkhid95hhdmh uid=cwm5shde97go8ek7mso89dakdc ip=127.0.0.1 Either user id or team name and user email must be provided [details: ]
+[2016/02/01 10:31:11 PKT] [EROR] Invalid session token=invalid, err=sessionIdOrToken=invalid
+[2016/02/01 10:31:11 PKT] [EROR] /api/v1/users/cwm5shde97go8ek7mso89dakdc:ServeHTTP code=401 rid=t4gmajyepfn5brrtpcitussp1h uid= ip=127.0.0.1 Invalid or expired session, please login again. [details: token=invalid]
+[2016/02/01 10:31:11 PKT] [EROR] /api/v1/users/create:createUser code=500 rid=76tath1tqin8bkydcpn77b9mmw uid= ip=127.0.0.1 The signup link does not appear to be valid [details: ]
+[2016/02/01 10:31:14 PKT] [EROR] /api/v1/users/FORBIDDENERROR:getUser code=403 rid=j3n1mqmo3b84pc83roqtu1c73a uid=e5qxb6cb67fqdgre4bewpe43ia ip=127.0.0.1 You do not have the appropriate permissions [details: userId=FORBIDDENERROR]
+[2016/02/01 10:31:14 PKT] [EROR] /api/v1/users/ubitpmmmq781d8f6ebj1oqn6to:getUser code=403 rid=edyr1cbbe7bd9ky6s45gdwcrwr uid=e5qxb6cb67fqdgre4bewpe43ia ip=127.0.0.1 You do not have the appropriate permissions [details: userId=ubitpmmmq781d8f6ebj1oqn6to]
+[2016/02/01 10:31:14 PKT] [EROR] /api/v1/users/profiles/6uzjen4u97da8y36qg1ria5w6c:getProfiles code=403 rid=ycwt3dsx5pgx7xcpb7g3kugzzo uid=e5qxb6cb67fqdgre4bewpe43ia ip=127.0.0.1 You do not have the appropriate permissions (system) [details: userId=e5qxb6cb67fqdgre4bewpe43ia]
+[2016/02/01 10:31:14 PKT] [EROR] /api/v1/users/ubitpmmmq781d8f6ebj1oqn6to: code=401 rid=ua8cdhu7tpny5y7k3azbdcbhne uid= ip=127.0.0.1 Invalid or expired session, please login again. [details: UserRequired]
+[2016/02/01 10:31:15 PKT] [EROR] /api/v1/users/FORBIDDENERROR/audits:getAudits code=403 rid=8r8ya54rkbyjuyo5tr84maen3a uid=93fqhfyd1pfoxxdxfz6uguxywr ip=127.0.0.1 You do not have the appropriate permissions [details: userId=FORBIDDENERROR]
+[2016/02/01 10:31:16 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=500 rid=1fgphbxxt3gtifc1okd5k76nkr uid=3cc9wy4h4b837cws1r9g9xyzja ip=127.0.0.1 Could not parse multipart form [details: ]
+[2016/02/01 10:31:16 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=500 rid=85co43a3mbn19crzteue1drt3w uid=9qjygcc4xj84mxbwbejq4sdxne ip=127.0.0.1 Could not parse multipart form [details: ]
+[2016/02/01 10:31:16 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=400 rid=88dstycaciyu7qqerfwmp7bwew uid=9qjygcc4xj84mxbwbejq4sdxne ip=127.0.0.1 No file under 'image' in request [details: ]
+[2016/02/01 10:31:17 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=44eyp858dfbyupb8e4fkmgz4oy uid=9qjygcc4xj84mxbwbejq4sdxne ip=127.0.0.1 You do not have the appropriate permissions [details: userId=p8kerie4pt8m9fc5kp97z8dnpr]
+[2016/02/01 10:31:17 PKT] [EROR] /api/v1/users/update:User.IsValid code=500 rid=oghtpi9qijbf5en7ar6u1nh7pc uid=p8kerie4pt8m9fc5kp97z8dnpr ip=127.0.0.1 Invalid team id [details: ]
+[2016/02/01 10:31:17 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=kao711eicigbjrtzrqufdeh38e uid=p8kerie4pt8m9fc5kp97z8dnpr ip=127.0.0.1 You do not have the appropriate permissions [details: userId=]
+[2016/02/01 10:31:18 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=jnd3waoepibrie964wth3yqcxy uid=ejo67cjs5b8dzkro5nzp5x1j3r ip=127.0.0.1 You do not have the appropriate permissions [details: userId=p8kerie4pt8m9fc5kp97z8dnpr]
+[2016/02/01 10:31:18 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=dt3wfcfa9i8ozem8c5pszq6juo uid=ejo67cjs5b8dzkro5nzp5x1j3r ip=127.0.0.1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/01 10:31:18 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=w3diiogkbtroznh3a4apxbgw7y uid=iekkmgp81injtyjxdkigd6c3ea ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:31:18 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=5g19md9fppgc7p43u7t6fqh3be uid=iekkmgp81injtyjxdkigd6c3ea ip=127.0.0.1 Invalid current_password parameter [details: ]
+[2016/02/01 10:31:18 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=dy8dyy56atdqpmwq1qirqwrexo uid=iekkmgp81injtyjxdkigd6c3ea ip=127.0.0.1 Invalid new_password parameter [details: ]
+[2016/02/01 10:31:18 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=jzywrp6oibrb8efeh65roak7he uid=iekkmgp81injtyjxdkigd6c3ea ip=127.0.0.1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/01 10:31:18 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=ch9z9owwjpywzmwiqxsgwtfk1c uid=iekkmgp81injtyjxdkigd6c3ea ip=127.0.0.1 The "Current Password" you entered is incorrect. Please check that Caps Lock is off and try again. [details: ]
+[2016/02/01 10:31:19 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=goo5stkqsi8wbqyqsyxkrgohph uid=pr1e183de3n17xgyogg1tfgc9c ip=127.0.0.1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/01 10:31:20 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=afexqh74c3r37jhag4ic78ou6o uid=pr1e183de3n17xgyogg1tfgc9c ip=127.0.0.1 You do not have the appropriate permissions [details: userId=pr1e183de3n17xgyogg1tfgc9c, teamId=msi5f6s5gbfemnjbra9fqxeoyo]
+[2016/02/01 10:31:20 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=hobzeajrfig6teyr9tu1hyz5uw uid=48baftqcsbrqumtxaajz9i38pc ip=127.0.0.1 You do not have the appropriate permissions [details: userId=8fdmg1jr7tg6mde5xpxm9pkb3w]
+[2016/02/01 10:31:20 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=n64f3jj9ein7me5wmp75p6pmuo uid=6nojx5jzyiy6frbb7kp1a66jhc ip=127.0.0.1 You do not have the appropriate permissions [details: userId=6nojx5jzyiy6frbb7kp1a66jhc, teamId=msi5f6s5gbfemnjbra9fqxeoyo]
+[2016/02/01 10:31:20 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=400 rid=er5xwxqydfbbu8n8rob9cx67nw uid=8fdmg1jr7tg6mde5xpxm9pkb3w ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:31:20 PKT] [EROR] /api/v1/users/update_roles:SqlUserStore.Get code=500 rid=c5cozo8i1b8m7nhj75g185n6no uid=8fdmg1jr7tg6mde5xpxm9pkb3w ip=127.0.0.1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: user_id=12345678901234567890123456]
+[2016/02/01 10:31:22 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=c9cydngy87ndfnqdk6fxtoqgay uid=5uy7yk6znjb85nzfntwj9fsh5y ip=127.0.0.1 You do not have the appropriate permissions [details: userId=5uy7yk6znjb85nzfntwj9fsh5y, teamId=3gnauohk3bynxqad3d46mgdw6r]
+[2016/02/01 10:31:22 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=mpsnk69sgfg7dfy1gfxt9jq1sa uid=fx4risn74prc88ncdm7u59o3bh ip=127.0.0.1 You do not have the appropriate permissions [details: userId=3j1xbuaegtd8mer18mr1naoqsr]
+[2016/02/01 10:31:22 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=zyq1ix3hu7rjpbma4q5incbw1w uid=ruswhspetpdcpcn73jb4wt59pw ip=127.0.0.1 You do not have the appropriate permissions [details: userId=ruswhspetpdcpcn73jb4wt59pw, teamId=3gnauohk3bynxqad3d46mgdw6r]
+[2016/02/01 10:31:22 PKT] [EROR] /api/v1/users/update_active:updateActive code=400 rid=jtcr7h7t6b8exnnmg584towo1r uid=3j1xbuaegtd8mer18mr1naoqsr ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:31:22 PKT] [EROR] /api/v1/users/update_active:SqlUserStore.Get code=500 rid=f8jxpfe9pibkpn814e8xzzhsta uid=3j1xbuaegtd8mer18mr1naoqsr ip=127.0.0.1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: user_id=12345678901234567890123456]
+[2016/02/01 10:31:23 PKT] [WARN] Attempting to permanently delete account dy43fqh6nfy8px5yqk8gjdsquccorey+test@test.com id=gc1atcjd3tyz7pejmuik4qh71r
+[2016/02/01 10:31:23 PKT] [WARN] Permanently deleted account dy43fqh6nfy8px5yqk8gjdsquccorey+test@test.com id=gc1atcjd3tyz7pejmuik4qh71r
+[2016/02/01 10:31:24 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=400 rid=bcskb7b5ob8pubwhghbu4pwphh uid= ip=127.0.0.1 Invalid email parameter [details: ]
+[2016/02/01 10:31:24 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=500 rid=59o148ghxfdq8y4exitw3bmh6c uid= ip=127.0.0.1 We couldn’t find an account with that address. [details: email=junk@junk.com team_id=5af1g9m6ajnyuryd1oe7tufcqh]
+[2016/02/01 10:31:24 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=400 rid=iayp7qupt7g188e9gawt1imchc uid= ip=127.0.0.1 Invalid name parameter [details: ]
+[2016/02/01 10:31:24 PKT] [EROR] /api/v1/users/send_password_reset:SqlTeamStore.GetByName code=500 rid=r6wbat8gh3dn38art53qc37e8a uid= ip=127.0.0.1 We couldn't find the existing team [details: name=junk, sql: no rows in result set]
+[2016/02/01 10:31:24 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=500 rid=3wk6hpjiktdspnhm6ddxmuh5bw uid= ip=127.0.0.1 Cannot reset password for SSO accounts [details: userId=kqsfq39cobn8mrpuk3rnmqmgoy, teamId=5af1g9m6ajnyuryd1oe7tufcqh]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=gj67iirkmibdbgd1ziroj94w1o uid= ip=127.0.0.1 Invalid new_password parameter [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=k6dzy46jmjg6zxexy638xmoyna uid= ip=127.0.0.1 Invalid new_password parameter [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=qq48okmn63gkux97f6nn7kqwah uid= ip=127.0.0.1 Invalid hash parameter [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=k138i5tzsbrwfddmormmzbmksy uid= ip=127.0.0.1 The reset password link does not appear to be valid [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=3rrwaph8438ydecbq35kerk66e uid= ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=zj1gja1cairujekp1kfzpao7rw uid= ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=mwmcdsipp7dqmqc17zan379oyh uid= ip=127.0.0.1 Invalid data:time parameter [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=bw5awxm6ptfgmcc9xcxt3gkm4o uid= ip=127.0.0.1 The reset password link does not appear to be valid [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=d4iqhgp447ys5f7hcb4aqxqa9h uid= ip=127.0.0.1 The reset password link does not appear to be valid [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=9g4zpm1ez7n79ngf7tye1m5ebw uid= ip=127.0.0.1 The reset password link does not appear to be valid [details: ]
+[2016/02/01 10:31:25 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=gdsayo9u5jrjfyyz4gaw5uhuir uid= ip=127.0.0.1 Cannot reset password for SSO accounts [details: userId=foddr8qa6pynj839i5h1pyet4a, teamId=atko5p7hkfy85gq94jdc5kjcwe]
+[2016/02/01 10:31:26 PKT] [EROR] /api/v1/users/update_notify: code=401 rid=wjmegyyk97ytue5z3p15f9h9xc uid= ip=127.0.0.1 Invalid or expired session, please login again. [details: UserRequired]
+[2016/02/01 10:31:26 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=h1qrzitajigqjjpo6fyhxk6g3e uid=aeyc9hh8fjbj7g53p9b9o974tr ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:31:26 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=rnmze1ypdinwzg7ke5qggmfedo uid=aeyc9hh8fjbj7g53p9b9o974tr ip=127.0.0.1 Invalid user_id parameter [details: ]
+[2016/02/01 10:31:26 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=403 rid=dayu5kw3hfg8bekebrkuk6zpqh uid=aeyc9hh8fjbj7g53p9b9o974tr ip=127.0.0.1 You do not have the appropriate permissions [details: userId=12345678901234567890123456]
+[2016/02/01 10:31:26 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=tpkxuz4zgpg4xgkwgm5q6tw1qe uid=aeyc9hh8fjbj7g53p9b9o974tr ip=127.0.0.1 Invalid desktop parameter [details: ]
+[2016/02/01 10:31:26 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=sg33dio577bw5dy816rqmydqwc uid=aeyc9hh8fjbj7g53p9b9o974tr ip=127.0.0.1 Invalid desktop_sound parameter [details: ]
+[2016/02/01 10:31:26 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=o3xgusci63fpfrzkzr8qsrnbuh uid=aeyc9hh8fjbj7g53p9b9o974tr ip=127.0.0.1 Invalid email parameter [details: ]
+[2016/02/01 10:31:41 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=9wxg8khwfpbs5kpip5ygp8rfuo uid=1madp4gqij8txdhw83wymbdfqc ip=127.0.0.1 Invalid password parameter [details: ]
+[2016/02/01 10:31:41 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=3x9dcbpzsf8odc6134mrzenhar uid=1madp4gqij8txdhw83wymbdfqc ip=127.0.0.1 Invalid team_name parameter [details: ]
+[2016/02/01 10:31:41 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=dhqrsn4watytteen1dbjffcwar uid=1madp4gqij8txdhw83wymbdfqc ip=127.0.0.1 Invalid service parameter [details: ]
+[2016/02/01 10:31:41 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=ehap68d1cpda3gqp8tiifsr65a uid=1madp4gqij8txdhw83wymbdfqc ip=127.0.0.1 Invalid email parameter [details: ]
+[2016/02/01 10:31:41 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=d6yw6b94uinqdmfauqw9n7mx7e uid=1madp4gqij8txdhw83wymbdfqc ip=127.0.0.1 Invalid email parameter [details: ]
+[2016/02/01 10:31:41 PKT] [EROR] /api/v1/users/switch_to_sso:SqlUserStore.GetByEmail code=500 rid=sqenzcsfc3rxbpwbzap6wnriwh uid=1madp4gqij8txdhw83wymbdfqc ip=127.0.0.1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: teamId=9j7auitzajyypegjzmst86idky, email=junk, sql: no rows in result set]
+[2016/02/01 10:31:41 PKT] [EROR] /api/v1/users/switch_to_sso:checkUserPassword code=403 rid=jyc1pry4s3f3mdz5o8r4rtm8ca uid=1madp4gqij8txdhw83wymbdfqc ip=127.0.0.1 Login failed because of invalid password [details: user_id=s7rucry9ktn7tfoaa7syt48ktr]
+[2016/02/01 10:31:42 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=rt7pdek1h3nhjfpffda4pei5gh uid=1madp4gqij8txdhw83wymbdfqc ip=127.0.0.1 Invalid password parameter [details: ]
+[2016/02/01 10:31:42 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=pa8nhg3swtrobkjjc1uyuexbzw uid=qrf9owzyr3fx7n58upqw65sqto ip=127.0.0.1 Invalid password parameter [details: ]
+[2016/02/01 10:31:42 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=yzh8pxdxbfgpzbudw3h3g3or8y uid=qrf9owzyr3fx7n58upqw65sqto ip=127.0.0.1 Invalid team_name parameter [details: ]
+[2016/02/01 10:31:42 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=mf9o4qagp7bj5eh4y9je83wbgr uid=qrf9owzyr3fx7n58upqw65sqto ip=127.0.0.1 Invalid service parameter [details: ]
+[2016/02/01 10:31:42 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=mfywo9ad578nfq1oz9p8aa1epa uid=qrf9owzyr3fx7n58upqw65sqto ip=127.0.0.1 Invalid service parameter [details: ]
+[2016/02/01 10:31:42 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=ysuo7moytpy7mkpz5sejiciejc uid=qrf9owzyr3fx7n58upqw65sqto ip=127.0.0.1 Invalid service parameter [details: ]
+[2016/02/01 10:31:42 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=pi57mjgo9t8pdfi9gpkrfr1nry uid=qrf9owzyr3fx7n58upqw65sqto ip=127.0.0.1 Invalid service parameter [details: ]
+[2016/02/01 10:31:46 PKT] [EROR] /api/v1/hooks/incoming/create:createIncomingHook code=501 rid=pi99mwk16t8uzxzjmfozwninda uid=opgk6h94838bxejpf38g9o4ety ip=127.0.0.1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/01 10:31:47 PKT] [EROR] /api/v1/hooks/incoming/list:getIncomingHooks code=501 rid=a1mm4jc51ffctn8h18z8y4ou3c uid=5sk6ahu1wbywzey9exp3bmuwue ip=127.0.0.1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/01 10:31:48 PKT] [EROR] /api/v1/hooks/incoming/delete:deleteIncomingHook code=501 rid=4x3b5o9cejngibrfigbmtonp4h uid=6aa47fccyffo8qrgi6j7kyyeze ip=127.0.0.1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/01 10:31:48 PKT] [EROR] /api/v1/hooks/outgoing/create:createOutgoingHook code=501 rid=athwuu3bwiy93nft5up3x7qfio uid=gkde1xopbtncpghn7fhgjqe69y ip=127.0.0.1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/01 10:31:49 PKT] [EROR] /api/v1/hooks/outgoing/list:getOutgoingHooks code=501 rid=jf3kd5cyt7d7f8ycu3mieqrn1y uid=1prepmrkxpyy7fdexaztd1x1hh ip=127.0.0.1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/01 10:31:49 PKT] [EROR] /api/v1/hooks/outgoing/delete:deleteOutgoingHook code=501 rid=nhsi4dz6g7fh8b8g9k1nsdh3oa uid=jqha5g7h7p8ht8x4y8w7bgtj4y ip=127.0.0.1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/01 10:31:50 PKT] [EROR] /api/v1/hooks/outgoing/regen_token:regenOutgoingHookToken code=501 rid=xskpeyzabbbb3mzmwk7m7idf5o uid=fawuc6tt57bzuku4cc93r65que ip=127.0.0.1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/01 10:31:52 PKT] [INFO] Stopping Server...
+[2016/02/01 10:31:52 PKT] [INFO] Closing SqlStore
+[2016/02/01 10:31:52 PKT] [INFO] Server stopped
+[2016/02/16 23:26:04 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/16 23:26:04 PKT] [INFO] Server is initializing...
+[2016/02/16 23:26:04 PKT] [INFO] Pinging sql master database
+[2016/02/16 23:28:18 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/16 23:28:18 PKT] [INFO] Server is initializing...
+[2016/02/16 23:28:18 PKT] [INFO] Pinging sql master database
+[2016/02/16 23:29:34 PKT] [CRIT] Failed to ping db err:dial tcp 192.168.99.100:3306: getsockopt: operation timed out
+[2016/02/17 09:20:28 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:20:28 PKT] [INFO] Server is initializing...
+[2016/02/17 09:20:28 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:20:28 PKT] [CRIT] Failed to ping db err:dial tcp 192.168.99.100:3306: getsockopt: connection refused
+[2016/02/17 09:23:34 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:23:34 PKT] [INFO] Server is initializing...
+[2016/02/17 09:23:34 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:23:35 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:23:35 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:23:35 PKT] [INFO] Starting Server...
+[2016/02/17 09:23:35 PKT] [INFO] Server is listening on :8065
+[2016/02/17 09:23:35 PKT] [INFO] RateLimiter is enabled
+[2016/02/17 09:23:35 PKT] [CRIT] Error starting server, err:listen tcp :8065: bind: address already in use
+[2016/02/17 09:26:38 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:26:38 PKT] [INFO] Server is initializing...
+[2016/02/17 09:26:38 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:26:38 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:26:38 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:26:38 PKT] [INFO] Starting Server...
+[2016/02/17 09:26:38 PKT] [INFO] Server is listening on :8065
+[2016/02/17 09:26:38 PKT] [INFO] RateLimiter is enabled
+[2016/02/17 09:26:39 PKT] [EROR] /api/v1/admin/logs:getLogs code=403 rid=xc3krmypap8g7e9r9eooeedshe uid=84n7u6mcefgo9y55ntejajje9w ip=::1 You do not have the appropriate permissions (system) [details: userId=84n7u6mcefgo9y55ntejajje9w]
+[2016/02/17 09:26:39 PKT] [EROR] /api/v1/admin/config:getConfig code=403 rid=xkz38a8fipfstbew4y97be8qce uid=qx3rppiaiif4ppxdhxzjd7cguh ip=::1 You do not have the appropriate permissions (system) [details: userId=qx3rppiaiif4ppxdhxzjd7cguh]
+[2016/02/17 09:26:40 PKT] [EROR] /api/v1/admin/save_config:getConfig code=403 rid=6jz7jqitxprzzdhec7gh9hixgr uid=mw79ztx95bfqmeursafqphddhr ip=::1 You do not have the appropriate permissions (system) [details: userId=mw79ztx95bfqmeursafqphddhr]
+[2016/02/17 09:26:41 PKT] [EROR] /api/v1/admin/test_email:testEmail code=403 rid=h3ufagbaqtdt7ktp7sk1tkrfry uid=xz4q1zc53386fco4hpk7ssoi9y ip=::1 You do not have the appropriate permissions (system) [details: userId=xz4q1zc53386fco4hpk7ssoi9y]
+[2016/02/17 09:26:42 PKT] [EROR] /api/v1/admin/analytics/8cwrc6frofgsfqerht3i8uakfr/standard:getAnalytics code=403 rid=ussjyw9t1jdrdbnaiegr371omy uid=c4mi6w3jhj85jef34344xjceqo ip=::1 You do not have the appropriate permissions (system) [details: userId=c4mi6w3jhj85jef34344xjceqo]
+[2016/02/17 09:26:42 PKT] [EROR] /api/v1/admin/analytics/qcfo3ffezffwifjxdd1rxscbda/post_counts_day:getAnalytics code=403 rid=1rfweto857f67kzd1hxt8mqbnc uid=hkp69sq4jbbjzb9tzsx6f6bo7c ip=::1 You do not have the appropriate permissions (system) [details: userId=hkp69sq4jbbjzb9tzsx6f6bo7c]
+[2016/02/17 09:26:43 PKT] [EROR] /api/v1/admin/analytics/k95d5oonf7nb9cnexeddgwaktw/user_counts_with_posts_day:getAnalytics code=403 rid=gfymdsichfgntri1w4gyy84grc uid=s8zw6ps7mffumba1j8jrpa4gro ip=::1 You do not have the appropriate permissions (system) [details: userId=s8zw6ps7mffumba1j8jrpa4gro]
+[2016/02/17 09:26:44 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Save code=500 rid=ewzgya3dbjfhir41fjmdn8pine uid=qaimnfi1qf8mxxfpha5g373j9c ip=::1 Must call update for exisiting channel [details: id=r4axng9k8id8xd4wihq6dpoywy]
+[2016/02/17 09:26:44 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Update code=500 rid=g13t3ix4cir8uyef48g9cwqc3w uid=qaimnfi1qf8mxxfpha5g373j9c ip=::1 A channel with that URL already exists [details: id=dnr138zkjfbefqignxikf5bxne, Error 1062: Duplicate entry 'aytt9haggniys3c1kc59fz8rdiaa-eu5meobb5jgp8n84tgqc1dp4ea' for key 'Name']
+[2016/02/17 09:26:44 PKT] [EROR] /api/v1/channels/create:createChannel code=400 rid=8dcn1txikiy38jm6q7iwnw3muh uid=qaimnfi1qf8mxxfpha5g373j9c ip=::1 Invalid channel parameter [details: ]
+[2016/02/17 09:26:44 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Update code=500 rid=6obgmktf5bnt5bwhd7wdszzr5y uid=qaimnfi1qf8mxxfpha5g373j9c ip=::1 A channel with that URL was previously created [details: id=7hy4sfbzy7bfdgqe5ke1tphige, Error 1062: Duplicate entry 'aytt9haggniys3c1kc59fz8rdiaa-eu5meobb5jgp8n84tgqc1dp4ea' for key 'Name']
+[2016/02/17 09:26:44 PKT] [EROR] /api/v1/channels/create:createChannel code=403 rid=t17a6qr6gfyndcrxmgnof5xsqo uid=qaimnfi1qf8mxxfpha5g373j9c ip=::1 You do not have the appropriate permissions [details: userId=qaimnfi1qf8mxxfpha5g373j9c, teamId=jn4bpf159jbg3don4dsnzhce7h]
+[2016/02/17 09:26:44 PKT] [EROR] /api/v1/channels/create:createDirectChannel code=500 rid=zwszzfh9d3nizje8ghyc49r7bh uid=qaimnfi1qf8mxxfpha5g373j9c ip=::1 Invalid character '__' in channel name for non-direct channel [details: ]
+[2016/02/17 09:26:44 PKT] [EROR] /api/v1/channels/create:createDirectChannel code=500 rid=m5ao7oh1atnatnjkj6jzfgmwzh uid=qaimnfi1qf8mxxfpha5g373j9c ip=::1 Must use createDirectChannel api service for direct message channel creation [details: ]
+[2016/02/17 09:26:45 PKT] [EROR] /api/v1/channels/create_direct:SqlChannelStore.Update code=500 rid=nnf6phacn78yzed6ktn8tkakka uid=tc4eu4juwp8tmjwdxxa7he3i1w ip=::1 A channel with that URL already exists [details: id=46s39smpfpyk3x1h4eg3re8q5w, Error 1062: Duplicate entry '3m8akdy753fi7eezrcbxd385po__tc4eu4juwp8tmjwdxxa7he3i1w-aztorjg99' for key 'Name']
+[2016/02/17 09:26:45 PKT] [EROR] /api/v1/channels/create_direct:createDirectChannel code=400 rid=cf9cekp9k38s5k6ch9rhijtaco uid=tc4eu4juwp8tmjwdxxa7he3i1w ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:26:45 PKT] [EROR] /api/v1/channels/create_direct:CreateDirectChannel code=500 rid=kyu43ndhcjbbfff7ybfxezfr6r uid=tc4eu4juwp8tmjwdxxa7he3i1w ip=::1 Invalid other user id  [details: 12345678901234567890123456]
+[2016/02/17 09:26:46 PKT] [EROR] /api/v1/channels/update:updateChannel code=403 rid=d3shuanws7fxbyusb1z6jx49do uid=ef69uequ67bfzr4gmds3j4dj7y ip=::1 Tried to perform an invalid update of the default channel town-square [details: ]
+[2016/02/17 09:26:46 PKT] [EROR] /api/v1/channels/update:SqlChannelStore.GetMember code=500 rid=swuhzntb5jye7x1baag5qq7u6c uid=98qo3ztgzjy6pe1rwwfgyx6d4h ip=::1 We couldn't get the channel member [details: channel_id=kjsnpzpciid8ugqyqn13omo3nauser_id=98qo3ztgzjy6pe1rwwfgyx6d4h,sql: no rows in result set]
+[2016/02/17 09:26:46 PKT] [EROR] /api/v1/channels/update_header:updateChannelHeader code=400 rid=xzjtf8ebeir55b9gr4sa5dkkch uid=cm1c5r1x9tg5ifsbwnqs9bifto ip=::1 Invalid channel_id parameter [details: ]
+[2016/02/17 09:26:46 PKT] [EROR] /api/v1/channels/update_header:SqlChannelStore.Get code=500 rid=ppoihwtqgtbzffhz3ap1a4rkpr uid=cm1c5r1x9tg5ifsbwnqs9bifto ip=::1 We couldn't find the existing channel [details: id=12345678901234567890123456]
+[2016/02/17 09:26:46 PKT] [EROR] /api/v1/channels/update_header:updateChannelHeader code=400 rid=qbu8etretbn9my3r4fmjpafumy uid=cm1c5r1x9tg5ifsbwnqs9bifto ip=::1 Invalid channel_header parameter [details: ]
+[2016/02/17 09:26:47 PKT] [EROR] /api/v1/channels/update_header:SqlChannelStore.GetMember code=500 rid=g11p336zn78rdqudkwzex99hbh uid=6z7qdg6sbpg93n8w4a4mr7byuc ip=::1 We couldn't get the channel member [details: channel_id=bkmfwgd4s7ftfkah5mkkob8kjhuser_id=6z7qdg6sbpg93n8w4a4mr7byuc,sql: no rows in result set]
+[2016/02/17 09:26:47 PKT] [EROR] /api/v1/channels/update_purpose:updateChannelPurpose code=400 rid=5w84o7kcqt8kmr4afwmh791eea uid=8wetfn4q8pr69k981kfpsqq6xc ip=::1 Invalid channel_id parameter [details: ]
+[2016/02/17 09:26:47 PKT] [EROR] /api/v1/channels/update_purpose:SqlChannelStore.Get code=500 rid=3w4367egqjfw8miqnxpscitg1r uid=8wetfn4q8pr69k981kfpsqq6xc ip=::1 We couldn't find the existing channel [details: id=12345678901234567890123456]
+[2016/02/17 09:26:47 PKT] [EROR] /api/v1/channels/update_purpose:Channel.IsValid code=500 rid=tdc35ccr9pd3fqjcnjo448jnjr uid=8wetfn4q8pr69k981kfpsqq6xc ip=::1 Invalid purpose [details: id=1qgjfyqr3prkxr7oy6913uzb4r]
+[2016/02/17 09:26:48 PKT] [EROR] /api/v1/channels/update_purpose:SqlChannelStore.GetMember code=500 rid=bxte71cshtnu5jdghtk1acp8ur uid=a1e84fqrxtdw9pf3zfmdbx8bda ip=::1 We couldn't get the channel member [details: channel_id=1qgjfyqr3prkxr7oy6913uzb4ruser_id=a1e84fqrxtdw9pf3zfmdbx8bda,sql: no rows in result set]
+[2016/02/17 09:26:48 PKT] [EROR] /api/v1/channels/junk/:SqlChannelStore.Get code=500 rid=1cz5i391eirebp4djqgqudpzxe uid=pjdmish7q7d15f8koj4a68mx9o ip=::1 We couldn't find the existing channel [details: id=junk]
+[2016/02/17 09:26:51 PKT] [EROR] /api/v1/channels/f35i8n1af3fy3cbckygzq9jwga/join:join code=403 rid=h117xux54jn19d8xzrxjnqtr3a uid=qe7kzqbmabgf8bpqrmyp8r86ay ip=::1 You do not have the appropriate permissions [details: ]
+[2016/02/17 09:26:51 PKT] [EROR] /api/v1/channels/fiur5iuis3gkug644mnhr3uwwr/join:join code=403 rid=utz195z3etgbjq4c5pzeexhxqw uid=ke4awzotwjftjfcynwhorkbchh ip=::1 You do not have the appropriate permissions [details: ]
+[2016/02/17 09:26:52 PKT] [EROR] /api/v1/channels/cowqwmubijywpkfo5ztgx976xe/leave:leave code=403 rid=1r3wp18sabr5jxqb1t38sg75ne uid=1kpzkak887yemff51i1m6s5y5c ip=::1 Cannot leave a direct message channel [details: ]
+[2016/02/17 09:26:52 PKT] [EROR] /api/v1/channels/ofapcprzxjfauydgouucpd7t6h/leave:leave code=403 rid=hf9kzawd9f8zmyyjabko8ructc uid=1kpzkak887yemff51i1m6s5y5c ip=::1 Cannot leave the default channel town-square [details: ]
+[2016/02/17 09:26:53 PKT] [EROR] /api/v1/channels/i4p7dnxwwbfdbphqzm599mqo7o/create:createPost code=403 rid=hhobxnoae3yfux7jswhey7kw7y uid=wbswwx3ucfr6iya4j1id877aje ip=::1 You do not have the appropriate permissions [details: userId=wbswwx3ucfr6iya4j1id877aje]
+[2016/02/17 09:26:54 PKT] [EROR] /api/v1/channels/i4p7dnxwwbfdbphqzm599mqo7o/join:AddUserToChannel code=500 rid=ja63kwg1w7rhmdfwtne4dzr8bc uid=jbpbtfgyffd8xx7tghpswj8rqa ip=::1 The channel has been archived or deleted [details: ]
+[2016/02/17 09:26:54 PKT] [EROR] /api/v1/channels/84whghjbj7r6mnskfeuoohx3qo/delete:deleteChannel code=403 rid=595kggxrxprtznnekf4hg1o7qr uid=jbpbtfgyffd8xx7tghpswj8rqa ip=::1 You do not have the appropriate permissions [details: ]
+[2016/02/17 09:26:54 PKT] [EROR] /api/v1/channels/gp54ymuntifp5kbcmduhfwrb6w/delete:deleteChannel code=403 rid=e43w8gqib3yizk6519d9ugh4qo uid=jbpbtfgyffd8xx7tghpswj8rqa ip=::1 You do not have the appropriate permissions [details: ]
+[2016/02/17 09:26:55 PKT] [EROR] /api/v1/channels/6whp5rghejyqtjw1ej1mrou8da/add:addMember code=400 rid=6tgproris7rybm3wffnau9446w uid=c9sbpak6ejfo3piudt7aczcsky ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:26:55 PKT] [EROR] /api/v1/channels/6whp5rghejyqtjw1ej1mrou8da/add:addMember code=500 rid=8dse9rzeepg7tm8o6hn6uusyae uid=c9sbpak6ejfo3piudt7aczcsky ip=::1 Failed to find user to be added [details: ]
+[2016/02/17 09:26:56 PKT] [EROR] Failed to add member user_id=xz7dynoey7ddupp6ytnfs9khhr channel_id=6whp5rghejyqtjw1ej1mrou8da err=SqlChannelStore.SaveMember: , channel_id=6whp5rghejyqtjw1ej1mrou8da, user_id=xz7dynoey7ddupp6ytnfs9khhr, Error 1062: Duplicate entry '6whp5rghejyqtjw1ej1mrou8da-xz7dynoey7ddupp6ytnfs9khhr' for key 'PRIMARY'
+[2016/02/17 09:26:56 PKT] [EROR] /api/v1/channels/6whp5rghejyqtjw1ej1mrou8da/add:AddUserToChannel code=500 rid=d76marfcijbjxgneprgy7qjksa uid=c9sbpak6ejfo3piudt7aczcsky ip=::1 Failed to add user to channel [details: ]
+[2016/02/17 09:26:56 PKT] [EROR] /api/v1/channels/sgdsgsdg/add:addMember code=403 rid=7zw5wytoopyt7yzrm4zehtyoqw uid=c9sbpak6ejfo3piudt7aczcsky ip=::1 You do not have the appropriate permissions [details: userId=c9sbpak6ejfo3piudt7aczcsky]
+[2016/02/17 09:26:56 PKT] [EROR] /api/v1/channels/dwosgcxxk7rumyiq1ifx5hwz8a/add:addMember code=403 rid=q8czxi9nzfynxrnjxzmd7efyto uid=xz7dynoey7ddupp6ytnfs9khhr ip=::1 You do not have the appropriate permissions [details: userId=xz7dynoey7ddupp6ytnfs9khhr]
+[2016/02/17 09:26:56 PKT] [EROR] /api/v1/channels/dwosgcxxk7rumyiq1ifx5hwz8a/add:addMember code=403 rid=iy3iho1ux3fo3dgt11896697gw uid=c9sbpak6ejfo3piudt7aczcsky ip=::1 You do not have the appropriate permissions [details: userId=c9sbpak6ejfo3piudt7aczcsky]
+[2016/02/17 09:26:57 PKT] [EROR] /api/v1/channels/xwpewsfwrbb1pghsbr93d4hssa/remove:removeMember code=400 rid=5ntns68tcibbdymu7bwruj9cwh uid=4opdy5kcg78n8jmaoxkyr8w59r ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:26:57 PKT] [EROR] /api/v1/channels/sgdsgsdg/remove:SqlChannelStore.Get code=500 rid=pd76t9gfepn49j7mm65t768hmh uid=4opdy5kcg78n8jmaoxkyr8w59r ip=::1 We couldn't find the existing channel [details: id=sgdsgsdg]
+[2016/02/17 09:26:58 PKT] [EROR] /api/v1/channels/c853mkkdttnxiggushmudgjhbh/remove:SqlChannelStore.GetMember code=500 rid=7xcmkurmhifk9nm44po54q8c5r uid=3pk9kg6fpfywfdpphiyrnmbxao ip=::1 We couldn't get the channel member [details: channel_id=c853mkkdttnxiggushmudgjhbhuser_id=3pk9kg6fpfywfdpphiyrnmbxao,sql: no rows in result set]
+[2016/02/17 09:26:58 PKT] [EROR] /api/v1/channels/c853mkkdttnxiggushmudgjhbh/remove:updateChannel code=500 rid=xajoi5y6bp8dxrfnxryeywafwc uid=4opdy5kcg78n8jmaoxkyr8w59r ip=::1 Unable to remove user. [details: ]
+[2016/02/17 09:26:59 PKT] [EROR] /api/v1/channels/update_notify_props:updateMarkUnreadLevel code=400 rid=syc66gtdbt8rjm7yag64yq9ymh uid=8g8scw4qxt8ubgau6yiyntm4mc ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:26:59 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=ir96nqaih3d7jcwf1srym7gmmy uid=8g8scw4qxt8ubgau6yiyntm4mc ip=::1 You do not have the appropriate permissions [details: userId=12345678901234567890123456]
+[2016/02/17 09:26:59 PKT] [EROR] /api/v1/channels/update_notify_props:updateMarkUnreadLevel code=400 rid=36qtyk69g3yy7mxp6nj9k84ffr uid=8g8scw4qxt8ubgau6yiyntm4mc ip=::1 Invalid channel_id parameter [details: ]
+[2016/02/17 09:26:59 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=byd8c9b4jtb97egy5pc9gf91xh uid=8g8scw4qxt8ubgau6yiyntm4mc ip=::1 You do not have the appropriate permissions [details: userId=8g8scw4qxt8ubgau6yiyntm4mc]
+[2016/02/17 09:26:59 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=1xcqupa6jiyf8pkmuqhzgbdxqr uid=8g8scw4qxt8ubgau6yiyntm4mc ip=::1 You do not have the appropriate permissions [details: userId=8g8scw4qxt8ubgau6yiyntm4mc]
+[2016/02/17 09:26:59 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=gacoxu6cmpn9zmigysqqxfbs6r uid=8g8scw4qxt8ubgau6yiyntm4mc ip=::1 You do not have the appropriate permissions [details: userId=8g8scw4qxt8ubgau6yiyntm4mc]
+[2016/02/17 09:26:59 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=q5dqbwj6s7f6zgyr15m95uyfor uid=1wiqfsors7dzjy419zft953pgy ip=::1 You do not have the appropriate permissions [details: userId=1wiqfsors7dzjy419zft953pgy]
+[2016/02/17 09:27:01 PKT] [EROR] /api/v1/command:checkCommand code=500 rid=48z7iqb1bt8y9f6w4p6dcx1fwh uid=yzk1fboijtrut8bxezm65f3tco ip=::1 Command must start with / [details: ]
+[2016/02/17 09:27:04 PKT] [EROR] /api/v1/command:loadTestUrlCommand code=500 rid=p31im6daeffjugdyrbxhee9tjc uid=o9rzcigumfrwpf8n4h5trde9er ip=::1 Command must contain a url [details: ]
+[2016/02/17 09:27:17 PKT] [EROR] readFile: , open ./data/teams/h9k5c4nsq3dr7nzdicfrx5o1do/channels/yiw8es6hnigp9d9mgypacmgajo/users/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png: no such file or directory
+[2016/02/17 09:27:17 PKT] [EROR] /api/v1/files/get/yiw8es6hnigp9d9mgypacmgajo/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png:getFile code=403 rid=d31ki73unby88gjkend13i9keh uid=5qz335x617bgu87wku4itax68a ip=::1 You do not have the appropriate permissions [details: userId=5qz335x617bgu87wku4itax68a]
+[2016/02/17 09:27:17 PKT] [EROR] readFile: , open ./data/teams/h9k5c4nsq3dr7nzdicfrx5o1do/channels/yiw8es6hnigp9d9mgypacmgajo/users/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png: no such file or directory
+[2016/02/17 09:27:17 PKT] [EROR] /api/v1/files/get/yiw8es6hnigp9d9mgypacmgajo/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png:getFile code=403 rid=onwpo9zxajf3ijgjfuzuj3fyda uid=5qz335x617bgu87wku4itax68a ip=::1 You do not have the appropriate permissions [details: userId=5qz335x617bgu87wku4itax68a]
+[2016/02/17 09:27:17 PKT] [EROR] readFile: , open ./data/teams/12345678901234567890123456/channels/yiw8es6hnigp9d9mgypacmgajo/users/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png: no such file or directory
+[2016/02/17 09:27:17 PKT] [EROR] /api/v1/files/get/yiw8es6hnigp9d9mgypacmgajo/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png:getFile code=404 rid=3tabwxbwxpbbbkdpwwuujrcjqe uid=5qz335x617bgu87wku4itax68a ip=::1 Could not find file. [details: path=teams/12345678901234567890123456/channels/yiw8es6hnigp9d9mgypacmgajo/users/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png]
+[2016/02/17 09:27:17 PKT] [EROR] /api/v1/files/get/yiw8es6hnigp9d9mgypacmgajo/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png:getFile code=403 rid=pttb7eqd7i8b3c9a11opxxa5uy uid=5qz335x617bgu87wku4itax68a ip=::1 You do not have the appropriate permissions [details: userId=5qz335x617bgu87wku4itax68a]
+[2016/02/17 09:27:17 PKT] [EROR] /api/v1/files/get/yiw8es6hnigp9d9mgypacmgajo/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png:getFile code=500 rid=juxcz9bb4jf1pb3mouduwpw8to uid=5qz335x617bgu87wku4itax68a ip=::1 The public link does not appear to be valid [details: ]
+[2016/02/17 09:27:17 PKT] [EROR] /api/v1/files/get/yiw8es6hnigp9d9mgypacmgajo/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png:getFile code=403 rid=k6ib9izo6jnmzmkxoynftzeguy uid=5qz335x617bgu87wku4itax68a ip=::1 You do not have the appropriate permissions [details: userId=5qz335x617bgu87wku4itax68a]
+[2016/02/17 09:27:17 PKT] [EROR] /api/v1/files/get/yiw8es6hnigp9d9mgypacmgajo/5qh6in3yt3nhupiqpuk696tfge/3zzcmm6zpjgr8ynn58n44xjx3y/test.png:getFile code=500 rid=cisuwffxbi8jibpg9orf7e64kh uid=5qz335x617bgu87wku4itax68a ip=::1 The public link does not appear to be valid [details: ]
+[2016/02/17 09:27:23 PKT] [EROR] /api/v1/files/get_public_link:getPublicLink code=400 rid=jourtu6c33r9zdnt5aew1qfghc uid=d7wtno7td7f3ubumi58zpjubmy ip=::1 Invalid filename parameter [details: ]
+[2016/02/17 09:27:23 PKT] [EROR] /api/v1/files/get_public_link:getPublicLink code=403 rid=e1df4bdjfpy6br7sekuktsr37c uid=g5u3itugzj87igcpg46zonjpxw ip=::1 You do not have the appropriate permissions [details: userId=g5u3itugzj87igcpg46zonjpxw]
+[2016/02/17 09:27:24 PKT] [EROR] /api/v1/oauth/register:registerOAuthApp code=501 rid=3c6ad4nixjnapj38cym5jwm7hy uid=g5u3itugzj87igcpg46zonjpxw ip=::1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/17 09:27:24 PKT] [EROR] /api/v1/oauth/allow:allowOAuth code=501 rid=abn5fs3xu3d8iqw4bpeu41n44y uid=i4u6cyhp4fyrxborsu4t6iybxe ip=::1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/17 09:27:25 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:25 PKT] [EROR] Bad filename discarded, filename=/12345678901234567890123456/12345678901234567890123456/12345678901234567890123456/test.png
+[2016/02/17 09:27:25 PKT] [EROR] /api/v1/channels/ihgdy71xj3nhdy4kx1cisjz5no/create:createPost code=400 rid=69jh4y5cfibyim55csspff9k8c uid=qdpi7paekjn6td69j6m3f5auba ip=::1 Invalid RootId parameter [details: ]
+[2016/02/17 09:27:25 PKT] [EROR] /api/v1/channels/ihgdy71xj3nhdy4kx1cisjz5no/create:createPost code=400 rid=79n319gck7yzbdz6emj3bu33ic uid=qdpi7paekjn6td69j6m3f5auba ip=::1 Invalid ParentId parameter [details: ]
+[2016/02/17 09:27:25 PKT] [EROR] /api/v1/channels/ihgdy71xj3nhdy4kx1cisjz5no/create:createPost code=400 rid=g97smhmrdtg45ezh5t7grajzfo uid=qdpi7paekjn6td69j6m3f5auba ip=::1 Invalid ChannelId for RootId parameter [details: ]
+[2016/02/17 09:27:25 PKT] [EROR] /api/v1/channels/junk/create:createPost code=403 rid=b661hh8e1ffmimz3mbtg9hhwde uid=qdpi7paekjn6td69j6m3f5auba ip=::1 You do not have the appropriate permissions [details: userId=qdpi7paekjn6td69j6m3f5auba]
+[2016/02/17 09:27:25 PKT] [EROR] /api/v1/channels/ihgdy71xj3nhdy4kx1cisjz5no/create:createPost code=403 rid=kh6g533rpibu8bstcfyqbaau1w uid=ard5yx86efg7tfjmm6umuoh5yy ip=::1 You do not have the appropriate permissions [details: userId=ard5yx86efg7tfjmm6umuoh5yy]
+[2016/02/17 09:27:26 PKT] [EROR] /api/v1/channels/ihgdy71xj3nhdy4kx1cisjz5no/create:createPost code=403 rid=zri6atjmd3y47bpowoi7shy5he uid=mpnr61b8w7d1jd899k5mtd7ihc ip=::1 You do not have the appropriate permissions [details: userId=mpnr61b8w7d1jd899k5mtd7ihc]
+[2016/02/17 09:27:26 PKT] [EROR] /api/v1/channels/i1omc17oipfrxx7rce9gjccweh/create:createPost code=400 rid=7yzpnhozmtdj9xu9yzm3tmqnoc uid=mpnr61b8w7d1jd899k5mtd7ihc ip=::1 Invalid post parameter [details: ]
+[2016/02/17 09:27:34 PKT] [EROR] /api/v1/channels/ix1sw86yf38hmeyy5c8d6w36hr/post/jxwfb76br7ydb8ybdc84zgzm9h/delete:deletePost code=403 rid=o71a3sr3qjbrzjapjt9z76ryoo uid=h6jsn58zzfbmbrgfx6g49xfday ip=::1 You do not have the appropriate permissions [details: userId=h6jsn58zzfbmbrgfx6g49xfday]
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:35 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:36 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:37 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:37 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:37 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:37 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:37 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:37 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:37 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:37 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:27:39 PKT] [EROR] /api/v1/preferences/save:savePreferences code=401 rid=zu4ncbgmgbfp7daxmh5ybnfhhy uid=hpsqw4ed1787frr5dcr5opmapw ip=::1 Unable to set preferences for other user [details: session.user_id=hpsqw4ed1787frr5dcr5opmapw, preference.user_id=ggnbfdt1minnxyi5rgn7pdm9ky]
+[2016/02/17 09:27:42 PKT] [INFO] sending invitation to corey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%22corey%2Btest%40test.com%22%2C%22id%22%3A%22frx3oxm8kp85py5xra1ukkwric%22%2C%22name%22%3A%22z-z-8i7881ku1fgk9mqku4p1u313ira%22%2C%22time%22%3A%221455683262267%22%7D&h=%242a%2410%247e4cfithpz8ZCbx2JAZpAulnLScHOeqDstb4NMw0cf5JsBwt32EQS
+[2016/02/17 09:27:42 PKT] [EROR] /api/v1/teams/create_from_signup:User.IsValid code=500 rid=e31jadhcafb3z8eewb8jq9khnh uid=58ocxe8hipff3jos43zssynutr ip=::1 Invalid email [details: user_id=63j7w13frbydmen66k97nh7jma]
+[2016/02/17 09:27:43 PKT] [EROR] /api/v1/teams/create:SqlTeamStore.Save code=500 rid=iausujkanfr9br7jposecfymba uid=i3dda7wi6pd7bprwoj74qzkkgw ip=::1 Must call update for exisiting team [details: id=s5djeg3t6tygjcu94ppme3t5kh]
+[2016/02/17 09:27:43 PKT] [EROR] /api/v1/teams/create:SqlTeamStore.Save code=500 rid=wb67m4iwxin78kbgybtyo587ze uid=i3dda7wi6pd7bprwoj74qzkkgw ip=::1 A team with that domain already exists [details: id=ahuj6et9pibydggqrofgjyae3w, Error 1062: Duplicate entry 'z-z-wfyizurrbpfkjm8f1885kqw96aa' for key 'Name']
+[2016/02/17 09:27:43 PKT] [EROR] /api/v1/teams/create:createTeam code=400 rid=cxj1i5y78jgw9ee1fcxfabmpmo uid=i3dda7wi6pd7bprwoj74qzkkgw ip=::1 Invalid team parameter [details: ]
+[2016/02/17 09:27:43 PKT] [EROR] /api/v1/teams/all:getLogs code=403 rid=eoqy7wrkg3gadrft8md11nmwuh uid=3mjsjrcqxtycuy9u67j1n4997h ip=::1 You do not have the appropriate permissions (system) [details: userId=3mjsjrcqxtycuy9u67j1n4997h]
+[2016/02/17 09:27:44 PKT] [WARN] Attempting to permanently delete team z-z-hd1ffdg3ifbu5dw9bceb9snazoa id=bsiztez783bixeg1xorrw7jbco
+[2016/02/17 09:27:44 PKT] [WARN] Attempting to permanently delete account gg4b3tu69f8dbcy8pimryfsojccorey+test@test.com id=rwbzd9ijoibhxnnkdekjw7x6ih
+[2016/02/17 09:27:45 PKT] [WARN] Permanently deleted account gg4b3tu69f8dbcy8pimryfsojccorey+test@test.com id=rwbzd9ijoibhxnnkdekjw7x6ih
+[2016/02/17 09:27:45 PKT] [WARN] Permanently deleted team z-z-hd1ffdg3ifbu5dw9bceb9snazoa id=bsiztez783bixeg1xorrw7jbco
+[2016/02/17 09:27:46 PKT] [INFO] sending invitation to 6xeqg9jps3rwxeo6r4ctokcctocorey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%226xeqg9jps3rwxeo6r4ctokcctocorey%2Btest%40test.com%22%2C%22id%22%3A%22jiftrf4t5frf7n9giiokg18ojh%22%2C%22name%22%3A%22z-z-f97wkxjnfbn5z8mx8yq87kywrha%22%2C%22time%22%3A%221455683266066%22%7D&h=%242a%2410%241KHmgWdlBgT6IUOJmgyRJ.KjhidHRvc0uAUVNW%2FeprzEhYI55TJsS
+[2016/02/17 09:27:46 PKT] [INFO] sending invitation to 6xeqg9jps3rwxeo6r4ctokcctocorey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%226xeqg9jps3rwxeo6r4ctokcctocorey%2Btest%40test.com%22%2C%22id%22%3A%22jiftrf4t5frf7n9giiokg18ojh%22%2C%22name%22%3A%22z-z-f97wkxjnfbn5z8mx8yq87kywrha%22%2C%22time%22%3A%221455683266161%22%7D&h=%242a%2410%24C0KwNnLldjOMzatqezdr0.2yidcjLtK8Hu7gc7Ax784jAoZ0.ZOcK
+[2016/02/17 09:27:46 PKT] [EROR] /api/v1/teams/invite_members:Team.InviteMembers code=400 rid=egmfp38bt38q8m3y4fuuf4cheo uid=8t7p9wk9wtyi9yune913bxbxbo ip=::1 No one to invite. [details: ]
+[2016/02/17 09:27:46 PKT] [EROR] /api/v1/teams/update:updateTeam code=403 rid=whpa3y3ayprttkqr476knsdxka uid=u5p44zxdutdedeuxq49d3hu9ma ip=::1 You do not have the appropriate permissions [details: userId=u5p44zxdutdedeuxq49d3hu9ma]
+[2016/02/17 09:27:47 PKT] [EROR] /api/v1/teams/update:Team.IsValid code=500 rid=erk7rgfx8byajb4rphror6p4jh uid=f7aafcj4gibrxycs8ddi9x5xoy ip=::1 Invalid name [details: id=16kg7izmd3gttm4ratuj38hugo]
+[2016/02/17 09:27:53 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=nic8my9odifjm8owcimqrkrt8r
+[2016/02/17 09:27:53 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=3x6gxhwwp3ybfnnx7sur94oqqa uid=cdbfqbupujyymbazeq6e6s3j8h ip=::1 Must call update for exisiting user [details: user_id=nic8my9odifjm8owcimqrkrt8r]
+[2016/02/17 09:27:53 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=e7yh5tnhztdnideg831edfrhkh, Error 1062: Duplicate entry 'ufknbse7otyiifomyfoe9ptnzrcorey+test@test.com-pk8c6kxk4tgkidq3o8' for key 'Email'
+[2016/02/17 09:27:53 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=8nm35m5ntfbaursweyojgrw7yw uid=cdbfqbupujyymbazeq6e6s3j8h ip=::1 An account with that email already exists. [details: user_id=e7yh5tnhztdnideg831edfrhkh, Error 1062: Duplicate entry 'ufknbse7otyiifomyfoe9ptnzrcorey+test@test.com-pk8c6kxk4tgkidq3o8' for key 'Email']
+[2016/02/17 09:27:53 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=7gs6s65abigdbppazm7am9zsne, Error 1062: Duplicate entry 'fc9agbbzxjrk5crxkdxo88b4jr-pk8c6kxk4tgkidq3o81ota79no' for key 'Username'
+[2016/02/17 09:27:53 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=ibtjtjr17frs78w3hkfyhcnmgy uid=cdbfqbupujyymbazeq6e6s3j8h ip=::1 An account with that username already exists. [details: user_id=7gs6s65abigdbppazm7am9zsne, Error 1062: Duplicate entry 'fc9agbbzxjrk5crxkdxo88b4jr-pk8c6kxk4tgkidq3o81ota79no' for key 'Username']
+[2016/02/17 09:27:53 PKT] [EROR] Couldn't save the user err=User.IsValid: , user_id=q1ci4tjje3fnjkzf6wndaxoksr
+[2016/02/17 09:27:53 PKT] [EROR] /api/v1/users/create:User.IsValid code=500 rid=3b8cxw6t6bgr8rda4g66mmwu3e uid=cdbfqbupujyymbazeq6e6s3j8h ip=::1 Invalid email [details: user_id=q1ci4tjje3fnjkzf6wndaxoksr]
+[2016/02/17 09:27:53 PKT] [EROR] /api/v1/users/create:createUser code=400 rid=y5csgn4uw3b48ystj3mbkk9hsh uid=cdbfqbupujyymbazeq6e6s3j8h ip=::1 Invalid user parameter [details: ]
+[2016/02/17 09:27:53 PKT] [EROR] /api/v1/users/create:createUser code=500 rid=sdi89wcgijbgxqoz3upr91nshh uid=cdbfqbupujyymbazeq6e6s3j8h ip=::1 The signup link does not appear to be valid [details: ]
+[2016/02/17 09:27:54 PKT] [EROR] /api/v1/users/login:checkUserPassword code=403 rid=esf7d1i1yjynujkqs5hf14wd3h uid=m7zxdygpdbyzbxrt956uo455ah ip=::1 Login failed because of invalid password [details: user_id=m7zxdygpdbyzbxrt956uo455ah]
+[2016/02/17 09:27:54 PKT] [EROR] /api/v1/users/login:login code=403 rid=6e556eg5h3ncfrkgwrswyy3o4r uid=m7zxdygpdbyzbxrt956uo455ah ip=::1 Either user id or team name and user email must be provided [details: ]
+[2016/02/17 09:27:54 PKT] [EROR] Invalid session token=invalid, err=sessionIdOrToken=invalid
+[2016/02/17 09:27:54 PKT] [EROR] /api/v1/users/m7zxdygpdbyzbxrt956uo455ah:ServeHTTP code=401 rid=bbx5wrag6bdtmrhzm5oe8m46oh uid= ip=::1 Invalid or expired session, please login again. [details: token=invalid]
+[2016/02/17 09:27:54 PKT] [EROR] /api/v1/users/create:createUser code=500 rid=5xamsjbs87dexrwp7a3srkzhkw uid= ip=::1 The signup link does not appear to be valid [details: ]
+[2016/02/17 09:27:57 PKT] [EROR] /api/v1/users/FORBIDDENERROR:getUser code=403 rid=hzwjoqmxfiyg88d98rupzubbth uid=dstm8zmwfff5zjpyeo3i3c7bpe ip=::1 You do not have the appropriate permissions [details: userId=FORBIDDENERROR]
+[2016/02/17 09:27:57 PKT] [EROR] /api/v1/users/grz5mja1stys8pgtxit94sosie:getUser code=403 rid=wkx53sob8iy19jeuxdgkkbn1fr uid=dstm8zmwfff5zjpyeo3i3c7bpe ip=::1 You do not have the appropriate permissions [details: userId=grz5mja1stys8pgtxit94sosie]
+[2016/02/17 09:27:57 PKT] [EROR] /api/v1/users/profiles/fpfqikcgb7gzje5ga7i1itcr5h:getProfiles code=403 rid=th7kh3u51t8e7pse8ouj9jkknr uid=dstm8zmwfff5zjpyeo3i3c7bpe ip=::1 You do not have the appropriate permissions (system) [details: userId=dstm8zmwfff5zjpyeo3i3c7bpe]
+[2016/02/17 09:27:57 PKT] [EROR] /api/v1/users/grz5mja1stys8pgtxit94sosie: code=401 rid=epkp3fptzjfsich3x366trkraw uid= ip=::1 Invalid or expired session, please login again. [details: UserRequired]
+[2016/02/17 09:27:58 PKT] [EROR] /api/v1/users/FORBIDDENERROR/audits:getAudits code=403 rid=gdunru8gujr7fd9tsuw4xjoewr uid=pqxcti4u8tro9f16wex8w95k7c ip=::1 You do not have the appropriate permissions [details: userId=FORBIDDENERROR]
+[2016/02/17 09:27:59 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=500 rid=eixfxhxf5igzdbnkuewzt584ka uid=oxhiuznhwpfyukkj4ayd78d54o ip=::1 Could not parse multipart form [details: ]
+[2016/02/17 09:27:59 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=500 rid=49fpbamw5if5uddopezm11cgzy uid=r63jp63k67g78q19iaixfo6bde ip=::1 Could not parse multipart form [details: ]
+[2016/02/17 09:27:59 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=400 rid=935a99nb7t8wtyafrx6shceepa uid=r63jp63k67g78q19iaixfo6bde ip=::1 No file under 'image' in request [details: ]
+[2016/02/17 09:28:00 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=3jojr4bz8pn7x8jmz94s3fg1xc uid=r63jp63k67g78q19iaixfo6bde ip=::1 You do not have the appropriate permissions [details: userId=jmh7oe68eirctynmoes9956efr]
+[2016/02/17 09:28:00 PKT] [EROR] /api/v1/users/update:User.IsValid code=500 rid=mf15zywy9tbczdpaun4eqtrheh uid=jmh7oe68eirctynmoes9956efr ip=::1 Invalid team id [details: ]
+[2016/02/17 09:28:00 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=n9xotb5fobbutxdwnomzo1szya uid=jmh7oe68eirctynmoes9956efr ip=::1 You do not have the appropriate permissions [details: userId=]
+[2016/02/17 09:28:00 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=yp7r6b1hatbiuyhtin4ooki1rh uid=zw9g67odcbgh9fmnp4m3aj8ttr ip=::1 You do not have the appropriate permissions [details: userId=jmh7oe68eirctynmoes9956efr]
+[2016/02/17 09:28:01 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=44pds1epk3b8irxui89ymm6okc uid=zw9g67odcbgh9fmnp4m3aj8ttr ip=::1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/17 09:28:01 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=6zrr73sokidq9jxqpm5gcpuaca uid=woo71fcpcpgzf85xwssjzqudha ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:28:01 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=frrz79x5ntbsmjguof9rasmpor uid=woo71fcpcpgzf85xwssjzqudha ip=::1 Invalid current_password parameter [details: ]
+[2016/02/17 09:28:01 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=gzcm3u7rkidnpkx1oswf1fngqh uid=woo71fcpcpgzf85xwssjzqudha ip=::1 Invalid new_password parameter [details: ]
+[2016/02/17 09:28:01 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=eg5k8ggw9pnb8nipfj59dwjoky uid=woo71fcpcpgzf85xwssjzqudha ip=::1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/17 09:28:01 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=355ioggbxidxzmay134jpyjgca uid=woo71fcpcpgzf85xwssjzqudha ip=::1 The "Current Password" you entered is incorrect. Please check that Caps Lock is off and try again. [details: ]
+[2016/02/17 09:28:02 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=khyotuit1bg5z8a3d6b4no9cfe uid=zd4j1demftymxnak1d1ah9fejc ip=::1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/17 09:28:02 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=chd9csu65jnyfbgbpgyfpxhm6o uid=zd4j1demftymxnak1d1ah9fejc ip=::1 You do not have the appropriate permissions [details: userId=zd4j1demftymxnak1d1ah9fejc, teamId=hb5xaiteq7gstxb416o1rjs7yc]
+[2016/02/17 09:28:02 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=d83pp4ubfifrdqyqzs968ojwuo uid=3hnd7sqkk7d39yx7bidmcz8ssa ip=::1 You do not have the appropriate permissions [details: userId=9aqahe7hopf43rjde3yuyibjde]
+[2016/02/17 09:28:03 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=r5unrxc8sjgkt85yy4q497i3wa uid=m4qys7gnmjno7gk68ji8mbd7gh ip=::1 You do not have the appropriate permissions [details: userId=m4qys7gnmjno7gk68ji8mbd7gh, teamId=hb5xaiteq7gstxb416o1rjs7yc]
+[2016/02/17 09:28:03 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=400 rid=ak6exoxxhigwjmbdu1kz8s49ka uid=9aqahe7hopf43rjde3yuyibjde ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:28:03 PKT] [EROR] /api/v1/users/update_roles:SqlUserStore.Get code=500 rid=fyxgdsxq33gt7cithk5g4srnqw uid=9aqahe7hopf43rjde3yuyibjde ip=::1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: user_id=12345678901234567890123456]
+[2016/02/17 09:28:05 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=kc54wucneiy65nax7kg1w645iy uid=atbd1agjnfgrzy14hu9z8q9nhy ip=::1 You do not have the appropriate permissions [details: userId=atbd1agjnfgrzy14hu9z8q9nhy, teamId=3fu4hseu53yd9x5x8oons19tne]
+[2016/02/17 09:28:05 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=4e5da4ffjir6pf4y6getmup8fc uid=nzncw37mtff59rdst6wsm6jmmy ip=::1 You do not have the appropriate permissions [details: userId=dswkjez3rjgx8erjr1r1p1egjw]
+[2016/02/17 09:28:05 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=mqk8w5tsm7ykxpq8x4qihidf3w uid=4x8f9asdbfgkdd38o3di47z5pw ip=::1 You do not have the appropriate permissions [details: userId=4x8f9asdbfgkdd38o3di47z5pw, teamId=3fu4hseu53yd9x5x8oons19tne]
+[2016/02/17 09:28:05 PKT] [EROR] /api/v1/users/update_active:updateActive code=400 rid=d57ebxzx5igouyounwh5s8bcta uid=dswkjez3rjgx8erjr1r1p1egjw ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:28:05 PKT] [EROR] /api/v1/users/update_active:SqlUserStore.Get code=500 rid=1k5ey1zn7bbq3ycgymrbwzrrqc uid=dswkjez3rjgx8erjr1r1p1egjw ip=::1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: user_id=12345678901234567890123456]
+[2016/02/17 09:28:06 PKT] [WARN] Attempting to permanently delete account c5zp3a1jsb8ezbmwnihtzjffihcorey+test@test.com id=ft37nnwgypfqzenb5w4ko5bujw
+[2016/02/17 09:28:06 PKT] [WARN] Permanently deleted account c5zp3a1jsb8ezbmwnihtzjffihcorey+test@test.com id=ft37nnwgypfqzenb5w4ko5bujw
+[2016/02/17 09:28:07 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=400 rid=uk73hm9srpgguj6twywbxmm9ue uid= ip=::1 Invalid email parameter [details: ]
+[2016/02/17 09:28:07 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=500 rid=m3mzkg9673yodjw5qd7wqdpudo uid= ip=::1 We couldn’t find an account with that address. [details: email=junk@junk.com team_id=jj53yw9tkifixdnin1pn5juntw]
+[2016/02/17 09:28:07 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=400 rid=18kkkapksiy5br9wgiogx8gsrc uid= ip=::1 Invalid name parameter [details: ]
+[2016/02/17 09:28:07 PKT] [EROR] /api/v1/users/send_password_reset:SqlTeamStore.GetByName code=500 rid=5azgas7rtfgt9bcrbqfpnaqrje uid= ip=::1 We couldn't find the existing team [details: name=junk, sql: no rows in result set]
+[2016/02/17 09:28:07 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=500 rid=f61bqcd4xty15pyf7tgkfkcodo uid= ip=::1 Cannot reset password for SSO accounts [details: userId=z8wryi6supb8tf1gy9oshn1y3a, teamId=jj53yw9tkifixdnin1pn5juntw]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=1pqxs4bqttnc8mgw94z8qr999w uid= ip=::1 Invalid new_password parameter [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=qmcbeiipdjy1xk11kuh1dzpagr uid= ip=::1 Invalid new_password parameter [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=n11ihgqu9tdntkwyzp18mdp16o uid= ip=::1 Invalid hash parameter [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=8z6maokcrtf7bdg4ao6b1ysdiy uid= ip=::1 The reset password link does not appear to be valid [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=ixwndh68ufgbzk53tx5z5tgqfe uid= ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=ban6q855838j8mr1b9np5teaza uid= ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=op7npp4adjn97x1bd9unk34w6o uid= ip=::1 Invalid data:time parameter [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=fqi6hmg563djdccbdwmrtpt5qc uid= ip=::1 The reset password link does not appear to be valid [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=pgkddprje385pei3hkwpygpjze uid= ip=::1 The reset password link does not appear to be valid [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=77j6313jbi83f8jinc33qjd45w uid= ip=::1 The reset password link does not appear to be valid [details: ]
+[2016/02/17 09:28:08 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=wt498ueu8jnwtc891ejt3cxk8e uid= ip=::1 Cannot reset password for SSO accounts [details: userId=to9m5ew7wprj3gstj1a8t8j77y, teamId=73f6gomae7fqfk1ao7bb7ksi7y]
+[2016/02/17 09:28:09 PKT] [EROR] /api/v1/users/update_notify: code=401 rid=6wz8uq6khif3dcisgjwrgq8ugw uid= ip=::1 Invalid or expired session, please login again. [details: UserRequired]
+[2016/02/17 09:28:09 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=m38hxorh4j8uuy761nrp9nocpe uid=gg37tyk5bp88drqyyepzudsmby ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:28:09 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=i4sk738uwpr4mdnaszsnmtbyne uid=gg37tyk5bp88drqyyepzudsmby ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:28:09 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=403 rid=sfe6eteedpd6dyh94hfmw1o6nh uid=gg37tyk5bp88drqyyepzudsmby ip=::1 You do not have the appropriate permissions [details: userId=12345678901234567890123456]
+[2016/02/17 09:28:09 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=8qe9gshcmpyw7jmn3p5marubyw uid=gg37tyk5bp88drqyyepzudsmby ip=::1 Invalid desktop parameter [details: ]
+[2016/02/17 09:28:09 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=gm7rhwqfn7bgffsu4t1ep8sexy uid=gg37tyk5bp88drqyyepzudsmby ip=::1 Invalid desktop_sound parameter [details: ]
+[2016/02/17 09:28:09 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=bftdposibpfc9noyf8qe1xwtoc uid=gg37tyk5bp88drqyyepzudsmby ip=::1 Invalid email parameter [details: ]
+[2016/02/17 09:28:21 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=noa9cjcxkib5fmuu7tyzaqnx4r uid=d8x4a5ji4igjbdikhuaet8hqgw ip=::1 Invalid password parameter [details: ]
+[2016/02/17 09:28:21 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=3f77aip54jg5pmdtf3r6s91ktr uid=d8x4a5ji4igjbdikhuaet8hqgw ip=::1 Invalid team_name parameter [details: ]
+[2016/02/17 09:28:21 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=eai8xe9nr3y65mqcndg4jfn4bw uid=d8x4a5ji4igjbdikhuaet8hqgw ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:28:21 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=xun9oe4ibffuif8a1i5pfxotjh uid=d8x4a5ji4igjbdikhuaet8hqgw ip=::1 Invalid email parameter [details: ]
+[2016/02/17 09:28:21 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=kpdfs8uhtjnfpdrab31gqhim8o uid=d8x4a5ji4igjbdikhuaet8hqgw ip=::1 Invalid email parameter [details: ]
+[2016/02/17 09:28:21 PKT] [EROR] /api/v1/users/switch_to_sso:SqlUserStore.GetByEmail code=500 rid=7zmbtsrsqirfpbw5peg7ahu7pa uid=d8x4a5ji4igjbdikhuaet8hqgw ip=::1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: teamId=1kqdpe8au7y8bcspxucuyzmgky, email=junk, sql: no rows in result set]
+[2016/02/17 09:28:22 PKT] [EROR] /api/v1/users/switch_to_sso:checkUserPassword code=403 rid=j7zrqjgu5jn7br3jfrga9on8sw uid=d8x4a5ji4igjbdikhuaet8hqgw ip=::1 Login failed because of invalid password [details: user_id=okbwadbkofnozxyue169kat8sh]
+[2016/02/17 09:28:22 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=ijd1qptmypnj8rwba6xw3zejuo uid=d8x4a5ji4igjbdikhuaet8hqgw ip=::1 Invalid password parameter [details: ]
+[2016/02/17 09:28:22 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=j8adkttjipnnx8hwa57sksnodh uid=s1yjkd637f89bd4r9nx4sazgur ip=::1 Invalid password parameter [details: ]
+[2016/02/17 09:28:22 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=k6o1tg83k3rfxbs7zyarijy8qr uid=s1yjkd637f89bd4r9nx4sazgur ip=::1 Invalid team_name parameter [details: ]
+[2016/02/17 09:28:22 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=dyyt1ntztpgj5j6cba4amz4iao uid=s1yjkd637f89bd4r9nx4sazgur ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:28:22 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=w6zdntr4t7rsdc17sasg7jmm6w uid=s1yjkd637f89bd4r9nx4sazgur ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:28:22 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=8q9s7qcu97nqu8zppskztwk74e uid=s1yjkd637f89bd4r9nx4sazgur ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:28:22 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=mmm8g1w9rib87e35ejnfch6gwa uid=s1yjkd637f89bd4r9nx4sazgur ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:28:26 PKT] [EROR] /api/v1/hooks/incoming/create:createIncomingHook code=501 rid=fu5iutog5fdz9853emmtgnfwbo uid=qmns7dsynpribyi93tcgr3reiy ip=::1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:28:27 PKT] [EROR] /api/v1/hooks/incoming/list:getIncomingHooks code=501 rid=gcsor39ssbbhdr33iuzsyt7xtc uid=zs6zjgihit8tbmfegmusk5thaa ip=::1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:28:27 PKT] [EROR] /api/v1/hooks/incoming/delete:deleteIncomingHook code=501 rid=j6rmqhxixtbg5ppggzwd7pddba uid=3wfean8pfbfmugekshphyjcj6r ip=::1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:28:28 PKT] [EROR] /api/v1/hooks/outgoing/create:createOutgoingHook code=501 rid=oj8cdpzkmpg7bfaxr6xxquk6to uid=c5zkxtqrpbymjbewpzqo7d1d8r ip=::1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:28:28 PKT] [EROR] /api/v1/hooks/outgoing/list:getOutgoingHooks code=501 rid=pmkukm419fnyxrxmahfffme8dw uid=r1hsa7xgujrzjq81yj3h7krq7o ip=::1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:28:29 PKT] [EROR] /api/v1/hooks/outgoing/delete:deleteOutgoingHook code=501 rid=8cxyi6mnqprx988y88isr7z1rr uid=he5jg6jw77ysuc83m77oin7p9y ip=::1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:28:29 PKT] [EROR] /api/v1/hooks/outgoing/regen_token:regenOutgoingHookToken code=501 rid=f16849gjjjfftnqbqwgrazh8zo uid=hedag4nn63fq3ma4uaw1mkjfpa ip=::1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:28:31 PKT] [INFO] Stopping Server...
+[2016/02/17 09:28:31 PKT] [INFO] Closing SqlStore
+[2016/02/17 09:28:31 PKT] [INFO] Server stopped
+[2016/02/17 09:44:10 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:44:10 PKT] [INFO] Server is initializing...
+[2016/02/17 09:44:10 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:44:10 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:44:11 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:44:11 PKT] [INFO] Starting Server...
+[2016/02/17 09:44:11 PKT] [INFO] Server is listening on :8065
+[2016/02/17 09:44:11 PKT] [INFO] RateLimiter is enabled
+[2016/02/17 09:44:11 PKT] [EROR] /api/v1/admin/logs:getLogs code=403 rid=tkmimne6fpfd8dfzh8b7jnimia uid=fgssutfospd63rj7fa9kybrn4w ip=::1 You do not have the appropriate permissions (system) [details: userId=fgssutfospd63rj7fa9kybrn4w]
+[2016/02/17 09:44:12 PKT] [EROR] /api/v1/admin/config:getConfig code=403 rid=cpz95uyxctbczd95esncobxjwh uid=bni9db7xptyepmji595jmxkjuy ip=::1 You do not have the appropriate permissions (system) [details: userId=bni9db7xptyepmji595jmxkjuy]
+[2016/02/17 09:44:12 PKT] [EROR] /api/v1/admin/save_config:getConfig code=403 rid=89ra8odunjnoix93idczdbwy5a uid=senpck89yinwmermg346kzpq7c ip=::1 You do not have the appropriate permissions (system) [details: userId=senpck89yinwmermg346kzpq7c]
+[2016/02/17 09:44:13 PKT] [EROR] /api/v1/admin/test_email:testEmail code=403 rid=665zyn9nmfgqzyi7uwhmd5oosr uid=egy5s1868i8y5ruh9rr8tqfy4y ip=::1 You do not have the appropriate permissions (system) [details: userId=egy5s1868i8y5ruh9rr8tqfy4y]
+[2016/02/17 09:44:14 PKT] [EROR] /api/v1/admin/analytics/519u6hti4tfkmyxibw3hbmj7hc/standard:getAnalytics code=403 rid=u7w3hq14stnq7ne1nemgbpssth uid=o3agbaifobg89feir7kpgxxide ip=::1 You do not have the appropriate permissions (system) [details: userId=o3agbaifobg89feir7kpgxxide]
+[2016/02/17 09:44:15 PKT] [EROR] /api/v1/admin/analytics/7gjgymx46jr73krtg3txei5zcr/post_counts_day:getAnalytics code=403 rid=3zaieh4kxtd6ue1fa6cabpce3a uid=jgqxcxp79idjz8zsnfz3juu94e ip=::1 You do not have the appropriate permissions (system) [details: userId=jgqxcxp79idjz8zsnfz3juu94e]
+[2016/02/17 09:44:16 PKT] [EROR] /api/v1/admin/analytics/bujp8a8e1tnqxmcb75dp38mc4y/user_counts_with_posts_day:getAnalytics code=403 rid=8uc76syx9ibjff46reqfdo89pe uid=wg5akoreypny7dhrw8xc498iyr ip=::1 You do not have the appropriate permissions (system) [details: userId=wg5akoreypny7dhrw8xc498iyr]
+[2016/02/17 09:44:16 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Save code=500 rid=pqz1pw7zzj89bd7rc7rnz3ojto uid=1weret1ms3bbjy4s7zdkskdykh ip=::1 Must call update for exisiting channel [details: id=8c566idg1tg7bjqigh9ainpmyw]
+[2016/02/17 09:44:16 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Update code=500 rid=6skmfk99oidazjyamhifwy3uah uid=1weret1ms3bbjy4s7zdkskdykh ip=::1 A channel with that URL already exists [details: id=wbc8u5rwzj8zjga4qsnhiateew, Error 1062: Duplicate entry 'a18wtjpktkjnnbn6qwamrb64qcha-xare1io79fnyfjk6exu5gwoeyy' for key 'Name']
+[2016/02/17 09:44:16 PKT] [EROR] /api/v1/channels/create:createChannel code=400 rid=erkaae3yutbsucrrpk6amwu8hw uid=1weret1ms3bbjy4s7zdkskdykh ip=::1 Invalid channel parameter [details: ]
+[2016/02/17 09:44:16 PKT] [EROR] /api/v1/channels/create:SqlChannelStore.Update code=500 rid=5yphf3t5mbdexch6n4p7myjiha uid=1weret1ms3bbjy4s7zdkskdykh ip=::1 A channel with that URL was previously created [details: id=4sejd4i87fy6d8wc8iw5sxdhce, Error 1062: Duplicate entry 'a18wtjpktkjnnbn6qwamrb64qcha-xare1io79fnyfjk6exu5gwoeyy' for key 'Name']
+[2016/02/17 09:44:16 PKT] [EROR] /api/v1/channels/create:createChannel code=403 rid=1rhaybm81tyrjp19xpyx5yh38a uid=1weret1ms3bbjy4s7zdkskdykh ip=::1 You do not have the appropriate permissions [details: userId=1weret1ms3bbjy4s7zdkskdykh, teamId=66mgwt39atb7xqx7x3ckj51nfo]
+[2016/02/17 09:44:16 PKT] [EROR] /api/v1/channels/create:createDirectChannel code=500 rid=bo9argecefyt9eitx5titntzfc uid=1weret1ms3bbjy4s7zdkskdykh ip=::1 Invalid character '__' in channel name for non-direct channel [details: ]
+[2016/02/17 09:44:16 PKT] [EROR] /api/v1/channels/create:createDirectChannel code=500 rid=yzx1kp7qufbhbbt6p3kefghokh uid=1weret1ms3bbjy4s7zdkskdykh ip=::1 Must use createDirectChannel api service for direct message channel creation [details: ]
+[2016/02/17 09:44:17 PKT] [EROR] /api/v1/channels/create_direct:SqlChannelStore.Update code=500 rid=mxrj4q8cs38o7qpb3zfky81bjy uid=ywumi7mbwb878k56bhgsf8p8ue ip=::1 A channel with that URL already exists [details: id=onn9hynjp7gkzj7huwnjwsow8c, Error 1062: Duplicate entry 'wjq55uk94fgdipd7zm1dfkcnuh__ywumi7mbwb878k56bhgsf8p8ue-fmga3i7tt' for key 'Name']
+[2016/02/17 09:44:17 PKT] [EROR] /api/v1/channels/create_direct:createDirectChannel code=400 rid=agh41w5wd3f78b3wn4kobh4tkw uid=ywumi7mbwb878k56bhgsf8p8ue ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:44:17 PKT] [EROR] /api/v1/channels/create_direct:CreateDirectChannel code=500 rid=cwrat1s1mjg33n5fz4aqnh6hbr uid=ywumi7mbwb878k56bhgsf8p8ue ip=::1 Invalid other user id  [details: 12345678901234567890123456]
+[2016/02/17 09:44:18 PKT] [EROR] /api/v1/channels/update:updateChannel code=403 rid=wnhio4f59f8upekmi6fm8wqtcc uid=az8dco6h4bgqddttx6ij5ode6w ip=::1 Tried to perform an invalid update of the default channel town-square [details: ]
+[2016/02/17 09:44:18 PKT] [EROR] /api/v1/channels/update:SqlChannelStore.GetMember code=500 rid=tf6gjw1d63y8iddcainmwgya4y uid=w4fcm6zzdf8azgzokkbu7iozta ip=::1 We couldn't get the channel member [details: channel_id=h7hkkaszq7nbxdr1nzankjpmshuser_id=w4fcm6zzdf8azgzokkbu7iozta,sql: no rows in result set]
+[2016/02/17 09:44:19 PKT] [EROR] /api/v1/channels/update_header:updateChannelHeader code=400 rid=ydhi1fn1g3yspfjgdhhgre4s9r uid=ixo79bspcbb6fnektskuspjmar ip=::1 Invalid channel_id parameter [details: ]
+[2016/02/17 09:44:19 PKT] [EROR] /api/v1/channels/update_header:SqlChannelStore.Get code=500 rid=q4q961on4fgxxjz3jctouijuqy uid=ixo79bspcbb6fnektskuspjmar ip=::1 We couldn't find the existing channel [details: id=12345678901234567890123456]
+[2016/02/17 09:44:19 PKT] [EROR] /api/v1/channels/update_header:updateChannelHeader code=400 rid=njh717bhofb4xya6wncbck1pqr uid=ixo79bspcbb6fnektskuspjmar ip=::1 Invalid channel_header parameter [details: ]
+[2016/02/17 09:44:19 PKT] [EROR] /api/v1/channels/update_header:SqlChannelStore.GetMember code=500 rid=5bf7743aridcinbegmb5ekaowc uid=wzudjn4fs7g48k67ygpcjjpx7a ip=::1 We couldn't get the channel member [details: channel_id=ggy3z6thkjfsppggq13kdfjzxhuser_id=wzudjn4fs7g48k67ygpcjjpx7a,sql: no rows in result set]
+[2016/02/17 09:44:20 PKT] [EROR] /api/v1/channels/update_purpose:updateChannelPurpose code=400 rid=bdwdp8pdd7f7preiacjzqqmjzo uid=hetxhugidpfdpyef3feazpaopa ip=::1 Invalid channel_id parameter [details: ]
+[2016/02/17 09:44:20 PKT] [EROR] /api/v1/channels/update_purpose:SqlChannelStore.Get code=500 rid=1bcdn5yqz7889dh9q6efmyzb6c uid=hetxhugidpfdpyef3feazpaopa ip=::1 We couldn't find the existing channel [details: id=12345678901234567890123456]
+[2016/02/17 09:44:20 PKT] [EROR] /api/v1/channels/update_purpose:Channel.IsValid code=500 rid=tnqm5bxkrfbp8ertzou83ihwde uid=hetxhugidpfdpyef3feazpaopa ip=::1 Invalid purpose [details: id=bsxpn5bhu7rnmxekqznnepduec]
+[2016/02/17 09:44:20 PKT] [EROR] /api/v1/channels/update_purpose:SqlChannelStore.GetMember code=500 rid=o4w1fmsfy3d73kwko98fa4bdeo uid=jbxh4wwkp3fe88f81smur6i4be ip=::1 We couldn't get the channel member [details: channel_id=bsxpn5bhu7rnmxekqznnepduecuser_id=jbxh4wwkp3fe88f81smur6i4be,sql: no rows in result set]
+[2016/02/17 09:44:21 PKT] [EROR] /api/v1/channels/junk/:SqlChannelStore.Get code=500 rid=ju7wbmaqpjyttpue4748mfmrqr uid=nmfupd3j6pyrmduqq5t8njux9a ip=::1 We couldn't find the existing channel [details: id=junk]
+[2016/02/17 09:44:23 PKT] [EROR] /api/v1/channels/7wzfjfywtfdnjff3cnamgue1sr/join:join code=403 rid=7p6zotaa6fntpn87bdhbi9y6pw uid=gucajk36o3bzfg1p3ofojewgeh ip=::1 You do not have the appropriate permissions [details: ]
+[2016/02/17 09:44:24 PKT] [EROR] /api/v1/channels/icokt5yax7f89k76oyk81pdw4r/join:join code=403 rid=bx9gk846firexdbkgse3qi4hmr uid=btektd5d4tn8fragsgsetaneiw ip=::1 You do not have the appropriate permissions [details: ]
+[2016/02/17 09:44:24 PKT] [EROR] /api/v1/channels/6fso4q5wyjy7pnuheboucd6dra/leave:leave code=403 rid=9crqt3ew9ibr7xcn4uxwerhcfw uid=tu1zcpiahb858nicy3a6gfinpw ip=::1 Cannot leave a direct message channel [details: ]
+[2016/02/17 09:44:24 PKT] [EROR] /api/v1/channels/5ao96w5gbpfajrys8fctbdrono/leave:leave code=403 rid=c8eaqjafei8r7cnt8xmr8noaje uid=tu1zcpiahb858nicy3a6gfinpw ip=::1 Cannot leave the default channel town-square [details: ]
+[2016/02/17 09:44:25 PKT] [EROR] /api/v1/channels/4z6j3rp9zinwm8p7q6z9wkw89e/create:createPost code=403 rid=butj9jfu1jd7xebhfaonh5bppe uid=mdchhditdp8p5q8pegqpauxonw ip=::1 You do not have the appropriate permissions [details: userId=mdchhditdp8p5q8pegqpauxonw]
+[2016/02/17 09:44:26 PKT] [EROR] /api/v1/channels/4z6j3rp9zinwm8p7q6z9wkw89e/join:AddUserToChannel code=500 rid=xrr6kz5xe3y93phjypjby1meey uid=41b4xxdqg3yafx9ukbrgojq1rw ip=::1 The channel has been archived or deleted [details: ]
+[2016/02/17 09:44:26 PKT] [EROR] /api/v1/channels/eehq561yzprjmxh17uby5qe48y/delete:deleteChannel code=403 rid=x15ysieyejdbjp8kruqbfeunyo uid=41b4xxdqg3yafx9ukbrgojq1rw ip=::1 You do not have the appropriate permissions [details: ]
+[2016/02/17 09:44:26 PKT] [EROR] /api/v1/channels/xqcmjx76u3rr9yrdxfxktjyq5a/delete:deleteChannel code=403 rid=wx3audwop7f5urhzztoasozrur uid=41b4xxdqg3yafx9ukbrgojq1rw ip=::1 You do not have the appropriate permissions [details: ]
+[2016/02/17 09:44:28 PKT] [EROR] /api/v1/channels/wt8ntfuzfidgddekqa6jg75isw/add:addMember code=400 rid=c8i8e11xj3gkzdnj5cqe5r8woy uid=838wety6n7yuxfusw3mdppdbnh ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:44:28 PKT] [EROR] /api/v1/channels/wt8ntfuzfidgddekqa6jg75isw/add:addMember code=500 rid=odbhtbunyib4znpex1k4zfjeyw uid=838wety6n7yuxfusw3mdppdbnh ip=::1 Failed to find user to be added [details: ]
+[2016/02/17 09:44:28 PKT] [EROR] Failed to add member user_id=1rpffmdmhtbsubk3b8945u6r6c channel_id=wt8ntfuzfidgddekqa6jg75isw err=SqlChannelStore.SaveMember: , channel_id=wt8ntfuzfidgddekqa6jg75isw, user_id=1rpffmdmhtbsubk3b8945u6r6c, Error 1062: Duplicate entry 'wt8ntfuzfidgddekqa6jg75isw-1rpffmdmhtbsubk3b8945u6r6c' for key 'PRIMARY'
+[2016/02/17 09:44:28 PKT] [EROR] /api/v1/channels/wt8ntfuzfidgddekqa6jg75isw/add:AddUserToChannel code=500 rid=ybaw75ggbpny5f6p8k3ncuuh1w uid=838wety6n7yuxfusw3mdppdbnh ip=::1 Failed to add user to channel [details: ]
+[2016/02/17 09:44:28 PKT] [EROR] /api/v1/channels/sgdsgsdg/add:addMember code=403 rid=9e1f414d3bfx5xaadub8fbp6ky uid=838wety6n7yuxfusw3mdppdbnh ip=::1 You do not have the appropriate permissions [details: userId=838wety6n7yuxfusw3mdppdbnh]
+[2016/02/17 09:44:28 PKT] [EROR] /api/v1/channels/3fcbs55tefftmcjhtaiicmiusa/add:addMember code=403 rid=3pi8m44yhff75qu7hjs6kroe3o uid=1rpffmdmhtbsubk3b8945u6r6c ip=::1 You do not have the appropriate permissions [details: userId=1rpffmdmhtbsubk3b8945u6r6c]
+[2016/02/17 09:44:28 PKT] [EROR] /api/v1/channels/3fcbs55tefftmcjhtaiicmiusa/add:addMember code=403 rid=m3987qmr4tnjjj633zkctcympy uid=838wety6n7yuxfusw3mdppdbnh ip=::1 You do not have the appropriate permissions [details: userId=838wety6n7yuxfusw3mdppdbnh]
+[2016/02/17 09:44:29 PKT] [EROR] /api/v1/channels/1baht5my7jb1pyo56386kmgsrr/remove:removeMember code=400 rid=rsg5f338kb8a3npnxxu4kn55ne uid=peds7riq43bwfnttc493bi9cma ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:44:29 PKT] [EROR] /api/v1/channels/sgdsgsdg/remove:SqlChannelStore.Get code=500 rid=6jsinagu7jfqpp36x6j1zs7zkc uid=peds7riq43bwfnttc493bi9cma ip=::1 We couldn't find the existing channel [details: id=sgdsgsdg]
+[2016/02/17 09:44:30 PKT] [EROR] /api/v1/channels/9rggh7gc6fgp9r83p8phge17io/remove:SqlChannelStore.GetMember code=500 rid=nuxtzxbcepfiuqspkwpqgz1aio uid=5yt14tuhtfdwtf63ixrtmbggmr ip=::1 We couldn't get the channel member [details: channel_id=9rggh7gc6fgp9r83p8phge17iouser_id=5yt14tuhtfdwtf63ixrtmbggmr,sql: no rows in result set]
+[2016/02/17 09:44:30 PKT] [EROR] /api/v1/channels/9rggh7gc6fgp9r83p8phge17io/remove:updateChannel code=500 rid=dadn45ahyfbzx89x6o317e7j8y uid=peds7riq43bwfnttc493bi9cma ip=::1 Unable to remove user. [details: ]
+[2016/02/17 09:44:31 PKT] [EROR] /api/v1/channels/update_notify_props:updateMarkUnreadLevel code=400 rid=n4tzaep5yfntpqnnowcoq1914r uid=5ni46qgo5td73nc3nf7iefgzna ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:44:31 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=f1rxyub9wtdd8bkkjwuwyaf78w uid=5ni46qgo5td73nc3nf7iefgzna ip=::1 You do not have the appropriate permissions [details: userId=12345678901234567890123456]
+[2016/02/17 09:44:31 PKT] [EROR] /api/v1/channels/update_notify_props:updateMarkUnreadLevel code=400 rid=iu8aenbwkbb6pczgsy8i94pybe uid=5ni46qgo5td73nc3nf7iefgzna ip=::1 Invalid channel_id parameter [details: ]
+[2016/02/17 09:44:31 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=gts4h6yzhbgcfr5nyqpstnk31c uid=5ni46qgo5td73nc3nf7iefgzna ip=::1 You do not have the appropriate permissions [details: userId=5ni46qgo5td73nc3nf7iefgzna]
+[2016/02/17 09:44:31 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=xcw954chftfafput5njo515fyh uid=5ni46qgo5td73nc3nf7iefgzna ip=::1 You do not have the appropriate permissions [details: userId=5ni46qgo5td73nc3nf7iefgzna]
+[2016/02/17 09:44:31 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=7m33opnrn78xjjm4e4cxfg3n5c uid=5ni46qgo5td73nc3nf7iefgzna ip=::1 You do not have the appropriate permissions [details: userId=5ni46qgo5td73nc3nf7iefgzna]
+[2016/02/17 09:44:31 PKT] [EROR] /api/v1/channels/update_notify_props:updateNotifyLevel code=403 rid=8rjq5kasair8zr9wxcciomjfow uid=fkwg9ax1xibbdjk4chbiqbuxga ip=::1 You do not have the appropriate permissions [details: userId=fkwg9ax1xibbdjk4chbiqbuxga]
+[2016/02/17 09:44:33 PKT] [EROR] /api/v1/command:checkCommand code=500 rid=37e3krrxo3n19m6y9hi5h3d38h uid=gbreijchpfreir4gih7o93btnw ip=::1 Command must start with / [details: ]
+[2016/02/17 09:44:36 PKT] [EROR] /api/v1/command:loadTestUrlCommand code=500 rid=8txqpidyj3rk7emwifdimdgwbc uid=k154zjwm9fy5pkuof3et4yigmy ip=::1 Command must contain a url [details: ]
+[2016/02/17 09:44:50 PKT] [EROR] readFile: , open ./data/teams/3kzki5shyfrkxcky6s5m9prf5r/channels/nghso1pfy3fzxmunwahmp1wk1y/users/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png: no such file or directory
+[2016/02/17 09:44:50 PKT] [EROR] /api/v1/files/get/nghso1pfy3fzxmunwahmp1wk1y/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png:getFile code=403 rid=q7xx4wffc7nxzegfk456hasujo uid=7zeinzoagbbbfdyhg8dkmg7jno ip=::1 You do not have the appropriate permissions [details: userId=7zeinzoagbbbfdyhg8dkmg7jno]
+[2016/02/17 09:44:50 PKT] [EROR] readFile: , open ./data/teams/3kzki5shyfrkxcky6s5m9prf5r/channels/nghso1pfy3fzxmunwahmp1wk1y/users/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png: no such file or directory
+[2016/02/17 09:44:50 PKT] [EROR] /api/v1/files/get/nghso1pfy3fzxmunwahmp1wk1y/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png:getFile code=403 rid=xr3ae9sbbfrbzdu65txsot41dr uid=7zeinzoagbbbfdyhg8dkmg7jno ip=::1 You do not have the appropriate permissions [details: userId=7zeinzoagbbbfdyhg8dkmg7jno]
+[2016/02/17 09:44:50 PKT] [EROR] readFile: , open ./data/teams/12345678901234567890123456/channels/nghso1pfy3fzxmunwahmp1wk1y/users/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png: no such file or directory
+[2016/02/17 09:44:50 PKT] [EROR] /api/v1/files/get/nghso1pfy3fzxmunwahmp1wk1y/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png:getFile code=404 rid=aw9k9at9ib8d7xqmcpzyma364e uid=7zeinzoagbbbfdyhg8dkmg7jno ip=::1 Could not find file. [details: path=teams/12345678901234567890123456/channels/nghso1pfy3fzxmunwahmp1wk1y/users/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png]
+[2016/02/17 09:44:50 PKT] [EROR] /api/v1/files/get/nghso1pfy3fzxmunwahmp1wk1y/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png:getFile code=403 rid=e7dqah1gttgrtfyi6a13fjjp8r uid=7zeinzoagbbbfdyhg8dkmg7jno ip=::1 You do not have the appropriate permissions [details: userId=7zeinzoagbbbfdyhg8dkmg7jno]
+[2016/02/17 09:44:50 PKT] [EROR] /api/v1/files/get/nghso1pfy3fzxmunwahmp1wk1y/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png:getFile code=500 rid=ys4ws9iorifb5k6bz7mk47bqee uid=7zeinzoagbbbfdyhg8dkmg7jno ip=::1 The public link does not appear to be valid [details: ]
+[2016/02/17 09:44:50 PKT] [EROR] /api/v1/files/get/nghso1pfy3fzxmunwahmp1wk1y/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png:getFile code=403 rid=6rnbw7mps3re7kppnmnsrm58bh uid=7zeinzoagbbbfdyhg8dkmg7jno ip=::1 You do not have the appropriate permissions [details: userId=7zeinzoagbbbfdyhg8dkmg7jno]
+[2016/02/17 09:44:50 PKT] [EROR] /api/v1/files/get/nghso1pfy3fzxmunwahmp1wk1y/xktf3phydty6xg9m7b6znqt4gy/5zmb1pnsybgi7nrtt1tkuwdt9y/test.png:getFile code=500 rid=bj1fafcj7frc3g18nmk7bzewyy uid=7zeinzoagbbbfdyhg8dkmg7jno ip=::1 The public link does not appear to be valid [details: ]
+[2016/02/17 09:44:56 PKT] [EROR] /api/v1/files/get_public_link:getPublicLink code=400 rid=twigdbkt3pfppbhitwsaznma4w uid=h1sptw68xjng3dt3aqoqd8ap5r ip=::1 Invalid filename parameter [details: ]
+[2016/02/17 09:44:56 PKT] [EROR] /api/v1/files/get_public_link:getPublicLink code=403 rid=bcxqcnkwufdo98kyfada5sfigo uid=m7b1a6ppiprd5ri39pu6muai5c ip=::1 You do not have the appropriate permissions [details: userId=m7b1a6ppiprd5ri39pu6muai5c]
+[2016/02/17 09:44:57 PKT] [EROR] /api/v1/oauth/register:registerOAuthApp code=501 rid=u8z1bfcqebr7mx869if9rpye9h uid=m7b1a6ppiprd5ri39pu6muai5c ip=::1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/17 09:44:57 PKT] [EROR] /api/v1/oauth/allow:allowOAuth code=501 rid=5c5rtq64htfqmp1grn95dkw7iw uid=ta5nopiueifwjkn6ywx1qc49kw ip=::1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/17 09:44:58 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:44:58 PKT] [EROR] Bad filename discarded, filename=/12345678901234567890123456/12345678901234567890123456/12345678901234567890123456/test.png
+[2016/02/17 09:44:58 PKT] [EROR] /api/v1/channels/1wgrdwn9nig8tx9cn4cc74er6o/create:createPost code=400 rid=tm5rgqz457ye8kk9gnmw9pt8to uid=4y33cg5bn7n3zkpnhkqdywx57r ip=::1 Invalid RootId parameter [details: ]
+[2016/02/17 09:44:58 PKT] [EROR] /api/v1/channels/1wgrdwn9nig8tx9cn4cc74er6o/create:createPost code=400 rid=caswoifp5pbtfcszktxjpsxjrr uid=4y33cg5bn7n3zkpnhkqdywx57r ip=::1 Invalid ParentId parameter [details: ]
+[2016/02/17 09:44:58 PKT] [EROR] /api/v1/channels/1wgrdwn9nig8tx9cn4cc74er6o/create:createPost code=400 rid=np5hx7qcbigx8n9diamu8cjtee uid=4y33cg5bn7n3zkpnhkqdywx57r ip=::1 Invalid ChannelId for RootId parameter [details: ]
+[2016/02/17 09:44:58 PKT] [EROR] /api/v1/channels/junk/create:createPost code=403 rid=gsfkazjmhpf8tm8hqu5fdu4oho uid=4y33cg5bn7n3zkpnhkqdywx57r ip=::1 You do not have the appropriate permissions [details: userId=4y33cg5bn7n3zkpnhkqdywx57r]
+[2016/02/17 09:44:58 PKT] [EROR] /api/v1/channels/1wgrdwn9nig8tx9cn4cc74er6o/create:createPost code=403 rid=usqog6u7zprf3qe65ap75zha6w uid=r1b7r9gcabgfurrgx45iix57de ip=::1 You do not have the appropriate permissions [details: userId=r1b7r9gcabgfurrgx45iix57de]
+[2016/02/17 09:44:59 PKT] [EROR] /api/v1/channels/1wgrdwn9nig8tx9cn4cc74er6o/create:createPost code=403 rid=iuw5gcod17gn3r18rj4iyb9kur uid=tm18waicctd3fmo9ermxkz5y7y ip=::1 You do not have the appropriate permissions [details: userId=tm18waicctd3fmo9ermxkz5y7y]
+[2016/02/17 09:44:59 PKT] [EROR] /api/v1/channels/37gqcc8663fumcetibuq3xn8hw/create:createPost code=400 rid=wu9gjza8cfn89xnm9dmp8bse9h uid=tm18waicctd3fmo9ermxkz5y7y ip=::1 Invalid post parameter [details: ]
+[2016/02/17 09:45:07 PKT] [EROR] /api/v1/channels/o6syff3i4fg7tqgc1bapmzt5ey/post/j8pfojgkibfsprq5z4ap8mstxo/delete:deletePost code=403 rid=byubtbhcabbf7cra7txktg3agy uid=tu5j4ub4atn38yrxnztbnjmkqh ip=::1 You do not have the appropriate permissions [details: userId=tu5j4ub4atn38yrxnztbnjmkqh]
+[2016/02/17 09:45:08 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:08 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:08 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:08 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:08 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:08 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:08 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:08 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:09 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:10 PKT] [EROR] Bad filename discarded, filename=junk
+[2016/02/17 09:45:13 PKT] [EROR] /api/v1/preferences/save:savePreferences code=401 rid=3ktgo7f3kfnhicebnp9mbign3h uid=3djfq7rimi8tjj385147k8forh ip=::1 Unable to set preferences for other user [details: session.user_id=3djfq7rimi8tjj385147k8forh, preference.user_id=trj7u3615bdpjdkfqkyfzwh3sr]
+[2016/02/17 09:45:15 PKT] [INFO] sending invitation to corey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%22corey%2Btest%40test.com%22%2C%22id%22%3A%22qicch1n8mjn938ccducgkthkwy%22%2C%22name%22%3A%22z-z-eetwjqmz6fd95c66bnryawy9zya%22%2C%22time%22%3A%221455684315526%22%7D&h=%242a%2410%24x1%2Fdg.QmNWaCBHe3f3x2LOFbOsNQeuwucF642G8i2wtEo6hVDXYcK
+[2016/02/17 09:45:15 PKT] [EROR] /api/v1/teams/create_from_signup:User.IsValid code=500 rid=afsed9twrfdz8pa75u9ao8kt8o uid=fi999r5aqifbjccn9xux1ax6cw ip=::1 Invalid email [details: user_id=d9ghmt457brk3jwh9yserq6f3e]
+[2016/02/17 09:45:16 PKT] [EROR] /api/v1/teams/create:SqlTeamStore.Save code=500 rid=o5is6ozwa7b8jg71q33fesstpr uid=sgfo8nko7fnm8psebe1sb41yaa ip=::1 Must call update for exisiting team [details: id=g81y7t7hpj87dfx5hz7x5kn4yy]
+[2016/02/17 09:45:16 PKT] [EROR] /api/v1/teams/create:SqlTeamStore.Save code=500 rid=nm94rx6a7tgyf87esecjcuiqwh uid=sgfo8nko7fnm8psebe1sb41yaa ip=::1 A team with that domain already exists [details: id=ucnjxcbuxjdm3bjdijmqcxacue, Error 1062: Duplicate entry 'z-z-g8nqrzfuxfnytncasngc3bak6wa' for key 'Name']
+[2016/02/17 09:45:16 PKT] [EROR] /api/v1/teams/create:createTeam code=400 rid=5th8u9ww1ig9jg5ssd5gjmt8th uid=sgfo8nko7fnm8psebe1sb41yaa ip=::1 Invalid team parameter [details: ]
+[2016/02/17 09:45:17 PKT] [EROR] /api/v1/teams/all:getLogs code=403 rid=efxxs3bi47nk88gx8ypg614a6w uid=su9u9m7hcpyfxxbbxpxhfriu5h ip=::1 You do not have the appropriate permissions (system) [details: userId=su9u9m7hcpyfxxbbxpxhfriu5h]
+[2016/02/17 09:45:18 PKT] [WARN] Attempting to permanently delete team z-z-8z1qp4z37tg1mndmn6daj35hura id=nokmobyckt8ypyrpbezpse81by
+[2016/02/17 09:45:18 PKT] [WARN] Attempting to permanently delete account 14x3h7k8s7yc78ngeifui541khcorey+test@test.com id=forp5nxwyir47k1d58344q41dy
+[2016/02/17 09:45:18 PKT] [WARN] Permanently deleted account 14x3h7k8s7yc78ngeifui541khcorey+test@test.com id=forp5nxwyir47k1d58344q41dy
+[2016/02/17 09:45:18 PKT] [WARN] Permanently deleted team z-z-8z1qp4z37tg1mndmn6daj35hura id=nokmobyckt8ypyrpbezpse81by
+[2016/02/17 09:45:19 PKT] [INFO] sending invitation to xpit51gjetrs9q7z7yp7eykoqecorey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%22xpit51gjetrs9q7z7yp7eykoqecorey%2Btest%40test.com%22%2C%22id%22%3A%22whiyxisi6p845jzyk8s7w1oxoo%22%2C%22name%22%3A%22z-z-foqg7akf67fm986wdki4sry5zha%22%2C%22time%22%3A%221455684319276%22%7D&h=%242a%2410%24bEdJzN.e2p9wuzzMZEV1O.erXKmQH6NOMv4trgXMHrEnTqFK3dXiy
+[2016/02/17 09:45:19 PKT] [INFO] sending invitation to xpit51gjetrs9q7z7yp7eykoqecorey+test@test.com http://localhost:8065/signup_user_complete/?d=%7B%22display_name%22%3A%22Name%22%2C%22email%22%3A%22xpit51gjetrs9q7z7yp7eykoqecorey%2Btest%40test.com%22%2C%22id%22%3A%22whiyxisi6p845jzyk8s7w1oxoo%22%2C%22name%22%3A%22z-z-foqg7akf67fm986wdki4sry5zha%22%2C%22time%22%3A%221455684319374%22%7D&h=%242a%2410%24lALz5hZTEONse8BkRMTYG.5TPREAY447pERj7SzkMcxGquJVwawQ2
+[2016/02/17 09:45:19 PKT] [EROR] /api/v1/teams/invite_members:Team.InviteMembers code=400 rid=acix6hx5efdojg9yoht5ubp79c uid=scfodbpunbgg7x1d77yksqbwaa ip=::1 No one to invite. [details: ]
+[2016/02/17 09:45:20 PKT] [EROR] /api/v1/teams/update:updateTeam code=403 rid=d5zzmy8kktdoprzrj68xfcwuze uid=o5fnzzatytdstnxjx54k5hy79a ip=::1 You do not have the appropriate permissions [details: userId=o5fnzzatytdstnxjx54k5hy79a]
+[2016/02/17 09:45:20 PKT] [EROR] /api/v1/teams/update:Team.IsValid code=500 rid=i6tnidcfkjn6zbnzbkobjfd9ae uid=zwogy9p86pyg7ykix83ofw7oky ip=::1 Invalid name [details: id=gkj3xjxhqjf9dqjpabsckpd5xa]
+[2016/02/17 09:45:26 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=dk1b8bozdpg8jbyb48k73dqdfh
+[2016/02/17 09:45:26 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=4fzhrfsnm3rspgu1mhrqoh4trw uid=8jtdrx847jbcpqa9a1k7gwt1cw ip=::1 Must call update for exisiting user [details: user_id=dk1b8bozdpg8jbyb48k73dqdfh]
+[2016/02/17 09:45:26 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=hshqdey4tjn8dr5mbgphc6j67e, Error 1062: Duplicate entry 'f1atuzbfcpfxikpthxcuhw1edycorey+test@test.com-gmnyzkrj4by6ubck4d' for key 'Email'
+[2016/02/17 09:45:26 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=897p3868xib9pbmitue34rx5bc uid=8jtdrx847jbcpqa9a1k7gwt1cw ip=::1 An account with that email already exists. [details: user_id=hshqdey4tjn8dr5mbgphc6j67e, Error 1062: Duplicate entry 'f1atuzbfcpfxikpthxcuhw1edycorey+test@test.com-gmnyzkrj4by6ubck4d' for key 'Email']
+[2016/02/17 09:45:26 PKT] [EROR] Couldn't save the user err=SqlUserStore.Save: , user_id=g1cnd3dit3fzujkpdgx8nmokow, Error 1062: Duplicate entry 'z6w4wkjhsingtkjrhfghaeuhby-gmnyzkrj4by6ubck4dfghhkhxe' for key 'Username'
+[2016/02/17 09:45:26 PKT] [EROR] /api/v1/users/create:SqlUserStore.Save code=500 rid=bzdt8n6y778dfmzg4uf3nne19r uid=8jtdrx847jbcpqa9a1k7gwt1cw ip=::1 An account with that username already exists. [details: user_id=g1cnd3dit3fzujkpdgx8nmokow, Error 1062: Duplicate entry 'z6w4wkjhsingtkjrhfghaeuhby-gmnyzkrj4by6ubck4dfghhkhxe' for key 'Username']
+[2016/02/17 09:45:26 PKT] [EROR] Couldn't save the user err=User.IsValid: , user_id=h48y9ifixbbzzb45u3swkfs5oe
+[2016/02/17 09:45:26 PKT] [EROR] /api/v1/users/create:User.IsValid code=500 rid=t8eaqnreijy59cab58md8sg9iw uid=8jtdrx847jbcpqa9a1k7gwt1cw ip=::1 Invalid email [details: user_id=h48y9ifixbbzzb45u3swkfs5oe]
+[2016/02/17 09:45:26 PKT] [EROR] /api/v1/users/create:createUser code=400 rid=x5i3dfg7sfrgznmkuo7espggqw uid=8jtdrx847jbcpqa9a1k7gwt1cw ip=::1 Invalid user parameter [details: ]
+[2016/02/17 09:45:26 PKT] [EROR] /api/v1/users/create:createUser code=500 rid=ns4sdmcccjbtmgxwbi6n4ao9qw uid=8jtdrx847jbcpqa9a1k7gwt1cw ip=::1 The signup link does not appear to be valid [details: ]
+[2016/02/17 09:45:27 PKT] [EROR] /api/v1/users/login:checkUserPassword code=403 rid=zsow759yeibebp746gsoregjhy uid=rj8fbx81apb7bpiuc7x6r174hr ip=::1 Login failed because of invalid password [details: user_id=rj8fbx81apb7bpiuc7x6r174hr]
+[2016/02/17 09:45:27 PKT] [EROR] /api/v1/users/login:login code=403 rid=ax45n1ng1prm5p7wmknhwpy16r uid=rj8fbx81apb7bpiuc7x6r174hr ip=::1 Either user id or team name and user email must be provided [details: ]
+[2016/02/17 09:45:27 PKT] [EROR] Invalid session token=invalid, err=sessionIdOrToken=invalid
+[2016/02/17 09:45:27 PKT] [EROR] /api/v1/users/rj8fbx81apb7bpiuc7x6r174hr:ServeHTTP code=401 rid=8hm7xggs3fbwukaff7itn7mo7c uid= ip=::1 Invalid or expired session, please login again. [details: token=invalid]
+[2016/02/17 09:45:27 PKT] [EROR] /api/v1/users/create:createUser code=500 rid=bg7zssq91bnj9ga5gbqcr6z1kc uid= ip=::1 The signup link does not appear to be valid [details: ]
+[2016/02/17 09:45:30 PKT] [EROR] /api/v1/users/FORBIDDENERROR:getUser code=403 rid=jxw9wqowi3bm3f7e7xzj5ujdch uid=rcrkxdaditgpbnjn5dqd1hjyqr ip=::1 You do not have the appropriate permissions [details: userId=FORBIDDENERROR]
+[2016/02/17 09:45:30 PKT] [EROR] /api/v1/users/i9tzpico77d8fb58hhb9maw4no:getUser code=403 rid=yyo6xdszubnqbbwjiyc3tej57e uid=rcrkxdaditgpbnjn5dqd1hjyqr ip=::1 You do not have the appropriate permissions [details: userId=i9tzpico77d8fb58hhb9maw4no]
+[2016/02/17 09:45:30 PKT] [EROR] /api/v1/users/profiles/gq38qrtyuiftdgd1d7xbqjgkch:getProfiles code=403 rid=fgbftykh8bnpjerydp91asm7qo uid=rcrkxdaditgpbnjn5dqd1hjyqr ip=::1 You do not have the appropriate permissions (system) [details: userId=rcrkxdaditgpbnjn5dqd1hjyqr]
+[2016/02/17 09:45:30 PKT] [EROR] /api/v1/users/i9tzpico77d8fb58hhb9maw4no: code=401 rid=ypba17ejs3rsxqrhq4r5d9ro7c uid= ip=::1 Invalid or expired session, please login again. [details: UserRequired]
+[2016/02/17 09:45:31 PKT] [EROR] /api/v1/users/FORBIDDENERROR/audits:getAudits code=403 rid=16aizyg9yi81xjubfthh1b1m3a uid=bywh5ysm4781f8mu47b49shheh ip=::1 You do not have the appropriate permissions [details: userId=FORBIDDENERROR]
+[2016/02/17 09:45:32 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=500 rid=6t3sb6frz3yifp8nrq3ja74qfw uid=shkxpko1c7g38qgqf8i7853ugr ip=::1 Could not parse multipart form [details: ]
+[2016/02/17 09:45:32 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=500 rid=8hxgpa56qjby9ccyuz8mmgcr3c uid=cy57mba6htno8m9jgwkqiea4do ip=::1 Could not parse multipart form [details: ]
+[2016/02/17 09:45:32 PKT] [EROR] /api/v1/users/newimage:uploadProfileImage code=400 rid=s4sx6ozre3ra7yntnx73xed3eh uid=cy57mba6htno8m9jgwkqiea4do ip=::1 No file under 'image' in request [details: ]
+[2016/02/17 09:45:32 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=xoukfke9otnozx1ma8zd9qwn3y uid=cy57mba6htno8m9jgwkqiea4do ip=::1 You do not have the appropriate permissions [details: userId=dz6eizzjujfsumcxsw3zcuydky]
+[2016/02/17 09:45:33 PKT] [EROR] /api/v1/users/update:User.IsValid code=500 rid=18ohdhthxpd9d87758mj4rr7uc uid=dz6eizzjujfsumcxsw3zcuydky ip=::1 Invalid team id [details: ]
+[2016/02/17 09:45:33 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=oy47r7a7ibfm8xnminw3sw7kta uid=dz6eizzjujfsumcxsw3zcuydky ip=::1 You do not have the appropriate permissions [details: userId=]
+[2016/02/17 09:45:33 PKT] [EROR] /api/v1/users/update:updateUser code=403 rid=m8bhd6jqufnp9njrux74388qqh uid=qt1qoqgwdbrwtcdn4a5xyjybcy ip=::1 You do not have the appropriate permissions [details: userId=dz6eizzjujfsumcxsw3zcuydky]
+[2016/02/17 09:45:34 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=ame4cgu4z3bepkegjjw7j3oraa uid=qt1qoqgwdbrwtcdn4a5xyjybcy ip=::1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/17 09:45:34 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=eynurteh6jnx3fjacsqazmi83a uid=37xjzij1mjy1mkdo1grfqm9ygh ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:45:34 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=7exprnof4fbd3kea3utsd91m6o uid=37xjzij1mjy1mkdo1grfqm9ygh ip=::1 Invalid current_password parameter [details: ]
+[2016/02/17 09:45:34 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=400 rid=hcs4oipxybysfx1mmjmmn933zw uid=37xjzij1mjy1mkdo1grfqm9ygh ip=::1 Invalid new_password parameter [details: ]
+[2016/02/17 09:45:34 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=wr9w91gpdi88ur86mf35fwnkfy uid=37xjzij1mjy1mkdo1grfqm9ygh ip=::1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/17 09:45:34 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=ycpceujjd38rmfuheebc5j4cgw uid=37xjzij1mjy1mkdo1grfqm9ygh ip=::1 The "Current Password" you entered is incorrect. Please check that Caps Lock is off and try again. [details: ]
+[2016/02/17 09:45:35 PKT] [EROR] /api/v1/users/newpassword:updatePassword code=403 rid=noo63ygorbnpdn38gyno7jaa8w uid=kaypiazj678adeta4z8uzg4kay ip=::1 Update password failed because context user_id did not match props user_id [details: ]
+[2016/02/17 09:45:35 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=nkaq1gn7h7rq7ehc4dsxj55tey uid=kaypiazj678adeta4z8uzg4kay ip=::1 You do not have the appropriate permissions [details: userId=kaypiazj678adeta4z8uzg4kay, teamId=zrd9xrfoh7ypdmeykompru987e]
+[2016/02/17 09:45:35 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=6tmixwbc1jdutcqjo67wep3jzw uid=sirbszoa5fbkxnu31dko8o64qw ip=::1 You do not have the appropriate permissions [details: userId=jnxfdt65gpndiqfwdijjec7x3a]
+[2016/02/17 09:45:36 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=403 rid=zh6pkg8uatdt7dqhocs7h1p94e uid=e75xeofq7tgofjdjy1pi3cjxwh ip=::1 You do not have the appropriate permissions [details: userId=e75xeofq7tgofjdjy1pi3cjxwh, teamId=zrd9xrfoh7ypdmeykompru987e]
+[2016/02/17 09:45:36 PKT] [EROR] /api/v1/users/update_roles:updateRoles code=400 rid=j7z5hpqum7nczpiq3dz9k6dp6c uid=jnxfdt65gpndiqfwdijjec7x3a ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:45:36 PKT] [EROR] /api/v1/users/update_roles:SqlUserStore.Get code=500 rid=7wm4f1kerpdtu81fn48n9ywzaw uid=jnxfdt65gpndiqfwdijjec7x3a ip=::1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: user_id=12345678901234567890123456]
+[2016/02/17 09:45:37 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=iawani9c9pfmtmdf37gfq8asfr uid=a6jeikr7nifz3ku3bf6a1y1dty ip=::1 You do not have the appropriate permissions [details: userId=a6jeikr7nifz3ku3bf6a1y1dty, teamId=kjbghxdsntdmbnbhud1pecon9r]
+[2016/02/17 09:45:37 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=reja8aqzojb37c1genp8mgm35w uid=zhqmys4dw7bqprkgu7emagmi6h ip=::1 You do not have the appropriate permissions [details: userId=emkxbjzt9jg6xp3gex8dhot5or]
+[2016/02/17 09:45:38 PKT] [EROR] /api/v1/users/update_active:updateActive code=403 rid=9jtzkhai9ffcpb1xn3gqcicm7c uid=1kn85pcmx3gdzdcik3ffq4qt6w ip=::1 You do not have the appropriate permissions [details: userId=1kn85pcmx3gdzdcik3ffq4qt6w, teamId=kjbghxdsntdmbnbhud1pecon9r]
+[2016/02/17 09:45:38 PKT] [EROR] /api/v1/users/update_active:updateActive code=400 rid=ghop9yimhp8e8nsts8wepscf6o uid=emkxbjzt9jg6xp3gex8dhot5or ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:45:38 PKT] [EROR] /api/v1/users/update_active:SqlUserStore.Get code=500 rid=me1hxrhshff6bdby917771ccho uid=emkxbjzt9jg6xp3gex8dhot5or ip=::1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: user_id=12345678901234567890123456]
+[2016/02/17 09:45:39 PKT] [WARN] Attempting to permanently delete account 61ax9tafkpyzfbbesgktrsngqocorey+test@test.com id=1cn4ody5o3yqiyxsyy8qo33r7e
+[2016/02/17 09:45:39 PKT] [WARN] Permanently deleted account 61ax9tafkpyzfbbesgktrsngqocorey+test@test.com id=1cn4ody5o3yqiyxsyy8qo33r7e
+[2016/02/17 09:45:40 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=400 rid=3667fdzp87fnznck6d1i9uotjy uid= ip=::1 Invalid email parameter [details: ]
+[2016/02/17 09:45:40 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=500 rid=pxdi3pcttbrwpnp5ymo1exhjke uid= ip=::1 We couldn’t find an account with that address. [details: email=junk@junk.com team_id=8wmbs565gtbd3pwiqgy1zseoxw]
+[2016/02/17 09:45:40 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=400 rid=c7ufmadofjre8eyta5kdfroj3o uid= ip=::1 Invalid name parameter [details: ]
+[2016/02/17 09:45:40 PKT] [EROR] /api/v1/users/send_password_reset:SqlTeamStore.GetByName code=500 rid=1i7qpin8p3bh8r45efetfw8kia uid= ip=::1 We couldn't find the existing team [details: name=junk, sql: no rows in result set]
+[2016/02/17 09:45:40 PKT] [EROR] /api/v1/users/send_password_reset:sendPasswordReset code=500 rid=if759nd3opd95pontnej4ag9nr uid= ip=::1 Cannot reset password for SSO accounts [details: userId=7sait53apinnpm31j47ftynieo, teamId=8wmbs565gtbd3pwiqgy1zseoxw]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=44arodeh4jy1pdyfrphdap36ra uid= ip=::1 Invalid new_password parameter [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=yx97rdth5789ifwn77gijh5uac uid= ip=::1 Invalid new_password parameter [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=oe671t3q8irsxeabfywo9fgzbo uid= ip=::1 Invalid hash parameter [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=34tpfr5633naxbpw8i51eb95te uid= ip=::1 The reset password link does not appear to be valid [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=ccxeuxxdkjy35ras9xmte67cce uid= ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=w6c7hkwoe3yobre7mkrbbuyxuw uid= ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=400 rid=ufxhpxico7r63cj4dp8fzpxwie uid= ip=::1 Invalid data:time parameter [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=gi367czf4tg4bfupnjzuo39aze uid= ip=::1 The reset password link does not appear to be valid [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=soduk5oipjdy9rwdkf9h3h8fee uid= ip=::1 The reset password link does not appear to be valid [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=rd6hmu8g3fdzjxrrx35wwyzatr uid= ip=::1 The reset password link does not appear to be valid [details: ]
+[2016/02/17 09:45:41 PKT] [EROR] /api/v1/users/reset_password:resetPassword code=500 rid=h7abfm1ktid7fcxx1ww36d8bbr uid= ip=::1 Cannot reset password for SSO accounts [details: userId=6443j5k1d7fopr4w5rtwmdabnc, teamId=q44691qd3fdebqywxx7g6f6t5c]
+[2016/02/17 09:45:42 PKT] [EROR] /api/v1/users/update_notify: code=401 rid=xgw75t8c978fjqktxamx3zsyth uid= ip=::1 Invalid or expired session, please login again. [details: UserRequired]
+[2016/02/17 09:45:42 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=a4n6jztdpjgi5qwmke5q91zxre uid=ej9nxnqpf3ff8b54hor4uszdgh ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:45:42 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=rxmyjym5rfyebp7qepx3rine9c uid=ej9nxnqpf3ff8b54hor4uszdgh ip=::1 Invalid user_id parameter [details: ]
+[2016/02/17 09:45:42 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=403 rid=sn4auik1otn83fd4nbyae4d7ko uid=ej9nxnqpf3ff8b54hor4uszdgh ip=::1 You do not have the appropriate permissions [details: userId=12345678901234567890123456]
+[2016/02/17 09:45:42 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=9qt86fgaotbhdb5coqj9g5mxza uid=ej9nxnqpf3ff8b54hor4uszdgh ip=::1 Invalid desktop parameter [details: ]
+[2016/02/17 09:45:42 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=mm7rrsrfp3bbfg3bqedh36dk5y uid=ej9nxnqpf3ff8b54hor4uszdgh ip=::1 Invalid desktop_sound parameter [details: ]
+[2016/02/17 09:45:42 PKT] [EROR] /api/v1/users/update_notify:updateUserNotify code=400 rid=izeh3ug5oidtzrjp7f36b5kcja uid=ej9nxnqpf3ff8b54hor4uszdgh ip=::1 Invalid email parameter [details: ]
+[2016/02/17 09:45:55 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=bwqhhrxr7pbfjkeoq8f8hw9pza uid=aagr8tw8m7y93cen1dm6ucbpuh ip=::1 Invalid password parameter [details: ]
+[2016/02/17 09:45:55 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=k6aarrb39prk3xajdrg4ankw9o uid=aagr8tw8m7y93cen1dm6ucbpuh ip=::1 Invalid team_name parameter [details: ]
+[2016/02/17 09:45:55 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=5157pwox9tfyij6m5cmfiow8se uid=aagr8tw8m7y93cen1dm6ucbpuh ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:45:55 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=8dzsrzb5kfr77dnnqwki5bwmgw uid=aagr8tw8m7y93cen1dm6ucbpuh ip=::1 Invalid email parameter [details: ]
+[2016/02/17 09:45:55 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=4dmfhfqxefgqxjgorhm9368bec uid=aagr8tw8m7y93cen1dm6ucbpuh ip=::1 Invalid email parameter [details: ]
+[2016/02/17 09:45:55 PKT] [EROR] /api/v1/users/switch_to_sso:SqlUserStore.GetByEmail code=500 rid=d3qigzkkf7rfx8ji9weuq11asc uid=aagr8tw8m7y93cen1dm6ucbpuh ip=::1 We couldn't find an existing account matching your email address for this team. This team may require an invite from the team owner to join. [details: teamId=uytww1x19fnrudq1zs357rb5ge, email=junk, sql: no rows in result set]
+[2016/02/17 09:45:55 PKT] [EROR] /api/v1/users/switch_to_sso:checkUserPassword code=403 rid=kuwcsybb7pfgxdfxnm57ph99ea uid=aagr8tw8m7y93cen1dm6ucbpuh ip=::1 Login failed because of invalid password [details: user_id=37495fzkojbj3gpmxghfkfr8ko]
+[2016/02/17 09:45:56 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=ce4pij9sepyd9dh9b7jsw1coir uid=aagr8tw8m7y93cen1dm6ucbpuh ip=::1 Invalid password parameter [details: ]
+[2016/02/17 09:45:56 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=74bukqajgf8wu8aomnb9j1j1qo uid=w5dkuhzfbjdxfmdj13fqhsjmca ip=::1 Invalid password parameter [details: ]
+[2016/02/17 09:45:56 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=pw53soekutnw8m19t4rmf6zsgo uid=w5dkuhzfbjdxfmdj13fqhsjmca ip=::1 Invalid team_name parameter [details: ]
+[2016/02/17 09:45:56 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=ydrbawngipny7d9mz58q44tmky uid=w5dkuhzfbjdxfmdj13fqhsjmca ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:45:56 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=hsyqx6g5zpffjq5ka9o5d16pta uid=w5dkuhzfbjdxfmdj13fqhsjmca ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:45:56 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=c4zwp4rrgiyymkwbrpuft3apty uid=w5dkuhzfbjdxfmdj13fqhsjmca ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:45:56 PKT] [EROR] /api/v1/users/switch_to_sso:switchToSSO code=400 rid=qamhkqes67bd98g4cpye6w16hy uid=w5dkuhzfbjdxfmdj13fqhsjmca ip=::1 Invalid service parameter [details: ]
+[2016/02/17 09:46:00 PKT] [EROR] /api/v1/hooks/incoming/create:createIncomingHook code=501 rid=xizriqywepbujek4cxsmaxpeio uid=sxk6pd8mebbu5mr6anw8ddt5ao ip=::1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:46:01 PKT] [EROR] /api/v1/hooks/incoming/list:getIncomingHooks code=501 rid=bpdjx9xn87fj3foh1tmqa15fch uid=ozq495tb9tf8pxyff6xg1o81dc ip=::1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:46:02 PKT] [EROR] /api/v1/hooks/incoming/delete:deleteIncomingHook code=501 rid=dnd7pd8qd7ft5q1nkneaf4p7zw uid=61naxaiyctfndjnqm89gigsz8h ip=::1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:46:02 PKT] [EROR] /api/v1/hooks/outgoing/create:createOutgoingHook code=501 rid=qet1sawjs3ri8ng353d6c91fpe uid=mpht184ijtdmmkkqbucoga988c ip=::1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:46:03 PKT] [EROR] /api/v1/hooks/outgoing/list:getOutgoingHooks code=501 rid=pnd9spjanbyofypoaefj3xsfta uid=tt4mcau9njdobgtzp3k5qun37y ip=::1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:46:03 PKT] [EROR] /api/v1/hooks/outgoing/delete:deleteOutgoingHook code=501 rid=z4xdwkodtpbf3qmap1rgopebxh uid=sq34mz9bqt8dfdoy1mcq7cnyec ip=::1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:46:04 PKT] [EROR] /api/v1/hooks/outgoing/regen_token:regenOutgoingHookToken code=501 rid=j1p5jwt8tjnabe7ia9595geoma uid=fuceioun4bgc7dm8gd8nntz1gw ip=::1 Outgoing webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:46:06 PKT] [INFO] Stopping Server...
+[2016/02/17 09:46:06 PKT] [INFO] Closing SqlStore
+[2016/02/17 09:46:06 PKT] [INFO] Server stopped

@@ -1,0 +1,37 @@
+[2016/02/01 10:32:30 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/01 10:32:30 PKT] [INFO] Server is initializing...
+[2016/02/01 10:32:30 PKT] [INFO] Pinging sql master database
+[2016/02/01 10:32:30 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/01 10:32:30 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/01 10:32:30 PKT] [INFO] Starting Server...
+[2016/02/01 10:32:30 PKT] [INFO] Server is listening on :8065
+[2016/02/01 10:32:30 PKT] [INFO] RateLimiter is enabled
+[2016/02/01 10:32:32 PKT] [EROR] /oauth/access_token:getAccessToken code=501 rid=tr4xsnsjs7rifc4ifgrn8mwmmo uid= ip=127.0.0.1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/01 10:32:32 PKT] [EROR] /hooks/123:incomingWebhook code=501 rid=ekddz4ngufgetrbzq8rjhn7kew uid= ip=127.0.0.1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/01 10:32:34 PKT] [INFO] Stopping Server...
+[2016/02/01 10:32:34 PKT] [INFO] Closing SqlStore
+[2016/02/01 10:32:34 PKT] [INFO] Server stopped
+[2016/02/17 09:29:30 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:29:30 PKT] [INFO] Server is initializing...
+[2016/02/17 09:29:30 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:29:30 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:29:30 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:29:30 PKT] [INFO] Starting Server...
+[2016/02/17 09:29:30 PKT] [INFO] Server is listening on :8065
+[2016/02/17 09:29:30 PKT] [INFO] RateLimiter is enabled
+[2016/02/17 09:29:31 PKT] [EROR] /oauth/access_token:getAccessToken code=501 rid=qpdymwqomjro9yu4ntmhjg4bjh uid= ip=::1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/17 09:29:32 PKT] [EROR] /hooks/123:incomingWebhook code=501 rid=ytqfhu3aqirifytn1gp8bghoro uid= ip=::1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:29:34 PKT] [INFO] Stopping Server...
+[2016/02/17 09:29:34 PKT] [INFO] Closing SqlStore
+[2016/02/17 09:47:14 PKT] [INFO] Loaded system translations for 'en' from '/Users/usman/go/src/github.com/mattermost/platform/i18n/en.json'
+[2016/02/17 09:47:14 PKT] [INFO] Server is initializing...
+[2016/02/17 09:47:14 PKT] [INFO] Pinging sql master database
+[2016/02/17 09:47:14 PKT] [INFO] Pinging sql replica-0 database
+[2016/02/17 09:47:15 PKT] [WARN] The database schema has been upgraded to version 1.4.0
+[2016/02/17 09:47:15 PKT] [INFO] Starting Server...
+[2016/02/17 09:47:15 PKT] [INFO] Server is listening on :8065
+[2016/02/17 09:47:15 PKT] [INFO] RateLimiter is enabled
+[2016/02/17 09:47:16 PKT] [EROR] /oauth/access_token:getAccessToken code=501 rid=cns8ae9z4j89xqkojz57oqdhdo uid= ip=::1 The system admin has turned off OAuth service providing. [details: ]
+[2016/02/17 09:47:17 PKT] [EROR] /hooks/123:incomingWebhook code=501 rid=6ec6ig5uy7rwdfoyzhnqw66usy uid= ip=::1 Incoming webhooks have been disabled by the system admin. [details: ]
+[2016/02/17 09:47:19 PKT] [INFO] Stopping Server...
+[2016/02/17 09:47:19 PKT] [INFO] Closing SqlStore
